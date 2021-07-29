@@ -92,3 +92,79 @@ assets:
   method: copy
   source:
   - name: itempic/Proof of Peace.imd
+- name: field2d/jp/al0field.2dd
+  method: copy
+  source:
+  - name: field2d/al0field.2dd
+- name: field2d/jp/bb0field.2dd
+  method: copy
+  source:
+  - name: field2d/bb0field.2dd
+- name: field2d/jp/ca0field.2dd
+  method: copy
+  source:
+  - name: field2d/ca0field.2dd
+- name: field2d/jp/dc0field.2dd
+  method: copy
+  source:
+  - name: field2d/dc0field.2dd
+- name: field2d/jp/di0field.2dd
+  method: copy
+  source:
+  - name: field2d/di0field.2dd
+- name: field2d/jp/eh0field.2dd
+  method: copy
+  source:
+  - name: field2d/eh0field.2dd
+- name: field2d/jp/es0field.2dd
+  method: copy
+  source:
+  - name: field2d/es0field.2dd
+- name: field2d/jp/hb0field.2dd
+  method: copy
+  source:
+  - name: field2d/hb0field.2dd
+- name: field2d/jp/he0field.2dd
+  method: copy
+  source:
+  - name: field2d/he0field.2dd
+- name: field2d/jp/lk0field.2dd
+  method: copy
+  source:
+  - name: field2d/lk0field.2dd
+- name: field2d/jp/lm0field.2dd
+  method: copy
+  source:
+  - name: field2d/lm0field.2dd
+- name: field2d/jp/mu0field.2dd
+  method: copy
+  source:
+  - name: field2d/mu0field.2dd
+- name: field2d/jp/nm0field.2dd
+  method: copy
+  source:
+  - name: field2d/nm0field.2dd
+- name: field2d/jp/po0field.2dd
+  method: copy
+  source:
+  - name: field2d/po0field.2dd
+- name: field2d/jp/tr0field.2dd
+  method: copy
+  source:
+  - name: field2d/tr0field.2dd
+- name: field2d/jp/tt0field.2dd
+  method: copy
+  source:
+  - name: field2d/tt0field.2dd
+- name: field2d/jp/wi0field.2dd
+  method: copy
+  source:
+  - name: field2d/wi0field.2dd
+- name: field2d/jp/wm0field.2dd
+  method: copy
+  source:
+  - name: field2d/wm0field.2dd
+- name: field2d/jp/zz0field.2dd
+  method: copy
+  source:
+  - name: field2d/zz0field.2dd
