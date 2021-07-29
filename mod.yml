@@ -172,3 +172,7 @@ assets:
   method: copy
   source:
   - name: obj/P_EX110.a.fm
+- name: itempic/item-241.imd #Report
+  method: imd
+  source:
+  - name: itempic/item-241.imd
