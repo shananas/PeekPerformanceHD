@@ -175,4 +175,4 @@ assets:
 - name: itempic/item-241.imd #Report
   method: imd
   source:
-  - name: itempic/item-241.imd
+  - name: itempic/Reports.imd
