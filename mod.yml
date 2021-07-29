@@ -72,10 +72,6 @@ assets:
   method: copy
   source:
   - name: itempic/Final Form.imd
-- name: itempic/item-271.imd #Anti Form
-  method: copy
-  source:
-  - name: itempic/Anti Form.imd
 - name: itempic/item-320.imd #Limit Form
   method: copy
   source:
