@@ -176,6 +176,10 @@ assets:
   method: imd
   source:
   - name: itempic/Reports.imd
+- name: msn/jp/DC00_MS101.bar
+  method: copy
+  source:
+  - name: msn/DC00_MS101.bar
 - name: msn/jp/DC02_MS100.bar
   method: copy
   source:
