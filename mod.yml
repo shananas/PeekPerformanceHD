@@ -188,3 +188,7 @@ assets:
   method: copy
   source:
   - name: msn/DC02_MS101.bar
+- name: obj/P_AL000.a.fm
+  method: copy
+  source:
+  - name: obj/P_AL000.a.fm
