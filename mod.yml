@@ -196,3 +196,11 @@ assets:
   method: copy
   source:
   - name: obj/P_LM100.a.fm
+- name: menu/fm/pause.2ld
+  method: copy
+  source:
+  - name: menu/pause.2ld
+- name: menu/fm/ending.2ld
+  method: copy
+  source:
+  - name: menu/ending.2ld
