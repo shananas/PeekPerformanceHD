@@ -192,3 +192,7 @@ assets:
   method: copy
   source:
   - name: obj/P_AL000.a.fm
+- name: obj/P_LM100.a.fm
+  method: copy
+  source:
+  - name: obj/P_LM100.a.fm
