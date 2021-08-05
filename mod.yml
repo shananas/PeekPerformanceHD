@@ -1,5 +1,7 @@
 name: Why?
 assets:
+
+#Icons
 - name: itempic/item-324.imd #Fire
   method: imd
   source:
@@ -24,22 +26,6 @@ assets:
   method: imd
   source:
   - name: itempic/reflect.png
-- name: obj/N_HB040_BTL.a.fm
-  method: copy
-  source:
-  - name: obj/N_HB040_BTL.a.fm
-- name: obj/P_EX350.a.fm
-  method: copy
-  source:
-  - name: obj/P_EX350.a.fm
-- name: obj/P_AL010.a.fm
-  method: copy
-  source:
-  - name: obj/P_AL010.a.fm
-- name: obj/P_EX330.a.fm
-  method: copy
-  source:
-  - name: obj/P_EX330.a.fm
 - name: itempic/item-221.imd #Lamp Charm
   method: copy
   source:
@@ -92,6 +78,12 @@ assets:
   method: copy
   source:
   - name: itempic/Proof of Peace.imd
+- name: itempic/item-241.imd #Report
+  method: imd
+  source:
+  - name: itempic/Reports.imd
+
+#RoomTransition
 - name: field2d/jp/al0field.2dd
   method: copy
   source:
@@ -168,14 +160,38 @@ assets:
   method: copy
   source:
   - name: field2d/zz0field.2dd
+
+#Obj
+- name: obj/N_HB040_BTL.a.fm
+  method: copy
+  source:
+  - name: obj/N_HB040_BTL.a.fm
+- name: obj/P_EX350.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX350.a.fm
+- name: obj/P_AL010.a.fm
+  method: copy
+  source:
+  - name: obj/P_AL010.a.fm
+- name: obj/P_EX330.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX330.a.fm
 - name: obj/P_EX110.a.fm
   method: copy
   source:
   - name: obj/P_EX110.a.fm
-- name: itempic/item-241.imd #Report
-  method: imd
+- name: obj/P_AL000.a.fm
+  method: copy
   source:
-  - name: itempic/Reports.imd
+  - name: obj/P_AL000.a.fm
+- name: obj/P_LM100.a.fm
+  method: copy
+  source:
+  - name: obj/P_LM100.a.fm
+
+#HudElement
 - name: msn/jp/DC00_MS101.bar
   method: copy
   source:
@@ -188,14 +204,8 @@ assets:
   method: copy
   source:
   - name: msn/DC02_MS101.bar
-- name: obj/P_AL000.a.fm
-  method: copy
-  source:
-  - name: obj/P_AL000.a.fm
-- name: obj/P_LM100.a.fm
-  method: copy
-  source:
-  - name: obj/P_LM100.a.fm
+
+#Special Screens
 - name: menu/fm/pause.2ld
   method: copy
   source:
