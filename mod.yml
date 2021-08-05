@@ -190,6 +190,10 @@ assets:
   method: copy
   source:
   - name: obj/P_LM100.a.fm
+- name: obj/P_MU010.a.fm
+  method: copy
+  source:
+  - name: obj/P_MU010.a.fm
 
 #HudElement
 - name: msn/jp/DC00_MS101.bar
