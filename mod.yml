@@ -194,6 +194,22 @@ assets:
   method: copy
   source:
   - name: obj/P_MU010.a.fm
+- name: obj/M_EX950_CARD.a.fm
+  method: copy
+  source:
+  - name: obj/M_EX950_CARD.a.fm
+- name: obj/M_EX950_CARD.mdlx
+  method: copy
+  source:
+  - name: obj/M_EX950_CARD.mdlx
+- name: obj/M_EX950_DICE.a.fm
+  method: copy
+  source:
+  - name: obj/M_EX950_DICE.a.fm
+- name: obj/M_EX950_DICE.mdlx
+  method: copy
+  source:
+  - name: obj/M_EX950_DICE.mdlx
 
 #HudElement
 - name: msn/jp/DC00_MS101.bar
@@ -208,6 +224,10 @@ assets:
   method: copy
   source:
   - name: msn/DC02_MS101.bar
+- name: msn/jp/MU09_MS108.bar
+  method: copy
+  source:
+  - name: msn/MU09_MS108.bar
 
 #Special Screens
 - name: menu/fm/pause.2ld
