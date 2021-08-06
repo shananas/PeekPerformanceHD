@@ -82,6 +82,10 @@ assets:
   method: imd
   source:
   - name: itempic/Reports.imd
+- name: itempic/item-244.imd #Bingus
+  method: imd
+  source:
+  - name: itempic/Hades Cup
 
 #RoomTransition
 - name: field2d/jp/al0field.2dd
@@ -228,6 +232,10 @@ assets:
   method: copy
   source:
   - name: msn/MU09_MS108.bar
+- name: msn/jp/EH14_MS103.bar
+  method: copy
+  source:
+  - name: msn/EH14_MS103.bar
 
 #Special Screens
 - name: menu/fm/pause.2ld
