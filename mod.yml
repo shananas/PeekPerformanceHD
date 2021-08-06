@@ -85,7 +85,7 @@ assets:
 - name: itempic/item-244.imd #Bingus
   method: imd
   source:
-  - name: itempic/Hades Cup
+  - name: itempic/Hades Cup.imd
 
 #RoomTransition
 - name: field2d/jp/al0field.2dd
