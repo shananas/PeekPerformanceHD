@@ -222,6 +222,91 @@ assets:
   method: copy
   source:
   - name: obj/B_EX210_EH.mdlx
+- name: obj/P_EX100.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100.a.fm
+- name: obj/P_EX100_BTLF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_BTLF.a.fm
+- name: obj/P_EX100_NM_BTLF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_NM_BTLF.a.fm
+- name: obj/P_EX100_TR_BTLF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_TR_BTLF.a.fm
+- name: obj/P_EX100_WI_BTLF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_WI_BTLF.a.fm
+- name: obj/P_EX100_XM_BTLF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_XM_BTLF.a.fm
+- name: obj/P_EX100_WI_KH1F.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_WI_KH1F.a.fm
+- name: obj/P_EX100_TR_KH1F.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_TR_KH1F.a.fm
+- name: obj/P_EX100_NM_KH1F.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_NM_KH1F.a.fm
+- name: obj/P_EX100_KH1F.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_KH1F.a.fm
+- name: obj/P_EX100_XM_KH1F.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_XM_KH1F.a.fm
+- name: obj/P_EX100_TRIF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_TRIF.a.fm
+- name: obj/P_EX100_NM_TRIF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_NM_TRIF.a.fm
+- name: obj/P_EX100_TR_TRIF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_TR_TRIF.a.fm
+- name: obj/P_EX100_WI_TRIF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_WI_TRIF.a.fm
+- name: obj/P_EX100_XM_TRIF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_XM_TRIF.a.fm
+- name: obj/P_EX100_ULTF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_ULTF.a.fm
+- name: obj/P_EX100_WI_ULTF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_WI_ULTF.a.fm
+- name: obj/P_EX100_TR_ULTF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_TR_ULTF.a.fm
+- name: obj/P_EX100_NM_ULTF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_NM_ULTF.a.fm
+- name: obj/P_EX100_XM_ULTF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_XM_ULTF.a.fm
+
 
 #HudElement
 - name: msn/jp/DC00_MS101.bar
