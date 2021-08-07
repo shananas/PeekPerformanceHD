@@ -214,6 +214,14 @@ assets:
   method: copy
   source:
   - name: obj/M_EX950_DICE.mdlx
+- name: obj/B_EX210.mdlx
+  method: copy
+  source:
+  - name: obj/B_EX210.mdlx
+- name: obj/B_EX210_EH.mdlx
+  method: copy
+  source:
+  - name: obj/B_EX210_EH.mdlx
 
 #HudElement
 - name: msn/jp/DC00_MS101.bar
