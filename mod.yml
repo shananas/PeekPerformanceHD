@@ -226,6 +226,22 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100.a.fm
+- name: obj/P_EX100_NM.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_NM.a.fm
+- name: obj/P_EX100_TR.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_TR.a.fm
+- name: obj/P_EX100_WI.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_WI.a.fm
+- name: obj/P_EX100_XM.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_XM.a.fm
 - name: obj/P_EX100_BTLF.a.fm
   method: copy
   source:
