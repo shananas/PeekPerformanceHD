@@ -246,6 +246,26 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_XM_BTLF.a.fm
+- name: obj/P_EX100_MAGF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_MAGF.a.fm
+- name: obj/P_EX100_WI_MAGF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_WI_MAGF.a.fm
+- name: obj/P_EX100_TR_MAGF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_TR_MAGF.a.fm
+- name: obj/P_EX100_NM_MAGF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_NM_MAGF.a.fm
+- name: obj/P_EX100_XM_MAGF.a.fm
+  method: copy
+  source:
+  - name: obj/P_EX100_XM_MAGF.a.fm
 - name: obj/P_EX100_WI_KH1F.a.fm
   method: copy
   source:
