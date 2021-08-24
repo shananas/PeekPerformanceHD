@@ -198,30 +198,6 @@ assets:
   method: copy
   source:
   - name: obj/P_MU010.a.fm
-- name: obj/M_EX950_CARD.a.fm
-  method: copy
-  source:
-  - name: obj/M_EX950_CARD.a.fm
-- name: obj/M_EX950_CARD.mdlx
-  method: copy
-  source:
-  - name: obj/M_EX950_CARD.mdlx
-- name: obj/M_EX950_DICE.a.fm
-  method: copy
-  source:
-  - name: obj/M_EX950_DICE.a.fm
-- name: obj/M_EX950_DICE.mdlx
-  method: copy
-  source:
-  - name: obj/M_EX950_DICE.mdlx
-- name: obj/B_EX210.mdlx
-  method: copy
-  source:
-  - name: obj/B_EX210.mdlx
-- name: obj/B_EX210_EH.mdlx
-  method: copy
-  source:
-  - name: obj/B_EX210_EH.mdlx
 - name: obj/P_EX100.a.fm
   method: copy
   source:
@@ -361,10 +337,6 @@ assets:
   method: copy
   source:
   - name: msn/MU09_MS108.bar
-- name: msn/jp/EH14_MS103.bar
-  method: copy
-  source:
-  - name: msn/EH14_MS103.bar
 
 #Special Screens
 - name: menu/fm/pause.2ld
