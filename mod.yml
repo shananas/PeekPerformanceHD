@@ -361,3 +361,9 @@ assets:
   method: copy
   source:
   - name: menu/puzzle050.bin
+
+#font img
+- name: msg\jp\fontimage.bar
+  method: copy
+  source:
+  - name: msg\fontimage.bar
