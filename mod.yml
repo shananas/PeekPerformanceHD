@@ -318,6 +318,30 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_XM_ULTF.a.fm
+- name: obj/P_CA000.a.fm
+  method: copy
+  source:
+  - name: obj/P_CA000.a.fm
+- name: obj/P_CA000_HUMAN.a.fm
+  method: copy
+  source:
+  - name: obj/P_CA000_HUMAN.a.fm
+- name: obj/P_CA000_HUMAN_LOW.a.fm
+  method: copy
+  source:
+  - name: obj/P_CA000_HUMAN_LOW.a.fm
+- name: obj/P_CA000_LOW.a.fm
+  method: copy
+  source:
+  - name: obj/P_CA000_LOW.a.fm
+- name: obj/P_NM000.a.fm
+  method: copy
+  source:
+  - name: obj/P_NM000.a.fm
+- name: obj/P_NM000_SANTA.a.fm
+  method: copy
+  source:
+  - name: obj/P_NM000_SANTA.a.fm
 
 
 #HudElement
