@@ -369,6 +369,10 @@ assets:
   method: copy
   source:
   - name: msn/MU09_MS108.bar
+- name: msn/jp/LK02_MS102.bar
+  method: copy
+  source:
+  - name: msn/LK02_MS102.bar
 
 #Special Screens
 - name: menu/fm/pause.2ld
