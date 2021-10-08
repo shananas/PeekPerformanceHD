@@ -346,6 +346,10 @@ assets:
   method: copy
   source:
   - name: obj/P_LK030.a.fm
+- name: obj/P_LK020.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK020.a.fm
 
 
 #HudElement
