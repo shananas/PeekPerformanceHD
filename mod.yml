@@ -342,6 +342,10 @@ assets:
   method: copy
   source:
   - name: obj/P_NM000_SANTA.a.fm
+- name: obj/P_LK030.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK030.a.fm
 
 
 #HudElement
