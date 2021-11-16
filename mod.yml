@@ -86,6 +86,10 @@ assets:
   method: imd
   source:
   - name: itempic/Hades Cup.imd
+- name: itempic/item-231.imd #Namine
+  method: imd
+  source:
+  - name: itempic/FeetPics.png
 
 #RoomTransition
 - name: field2d/jp/al0field.2dd
