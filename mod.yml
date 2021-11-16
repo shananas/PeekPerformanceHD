@@ -5,27 +5,27 @@ assets:
 - name: itempic/item-324.imd #Fire
   method: imd
   source:
-  - name: itempic/fire.png
+  - name: itempic/fire.imd
 - name: itempic/item-325.imd #Blizzard
   method: imd
   source:
-  - name: itempic/blizzard.png
+  - name: itempic/blizzard.imd
 - name: itempic/item-326.imd #Thunder
   method: imd
   source:
-  - name: itempic/thunder.png
+  - name: itempic/thunder.imd
 - name: itempic/item-327.imd #Cure
   method: imd
   source:
-  - name: itempic/cure.png
+  - name: itempic/cure.imd
 - name: itempic/item-328.imd #Magnet
   method: imd
   source:
-  - name: itempic/magnet.png
+  - name: itempic/magnet.imd
 - name: itempic/item-329.imd #Reflect
   method: imd
   source:
-  - name: itempic/reflect.png
+  - name: itempic/reflect.imd
 - name: itempic/item-221.imd #Lamp Charm
   method: copy
   source:
