@@ -1,6 +1,19 @@
 name: Why?
 assets:
 
+#font img
+- method: binarc
+  name: msg/jp/fontimage.bar
+  multi:
+    - name: msg/us/fontimage.bar
+    - name: msg/uk/fontimage.bar
+  source:
+  - method: copy
+    name: icon
+    source:
+    - name: msg/icon_0.rgb
+    type: RawBitmap
+
 #Icons
 - name: itempic/item-324.imd #Fire
   method: imd
@@ -405,9 +418,3 @@ assets:
   method: copy
   source:
   - name: menu/puzzle050.bin
-
-#font img
-- name: msg\jp\fontimage.bar
-  method: copy
-  source:
-  - name: msg\fontimage.bar
