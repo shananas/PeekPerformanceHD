@@ -223,6 +223,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100.imd
+- name: obj/P_EX100.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100.sqd
 - name: obj/P_EX100_NM.a.fm
   method: binarc
   source:
@@ -231,6 +239,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_NM.imd
+- name: obj/P_EX100_NM.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_NM.sqd
 - name: obj/P_EX100_TR.a.fm
   method: binarc
   source:
@@ -239,6 +255,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR.imd
+- name: obj/P_EX100_TR.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_TR.sqd
 - name: obj/P_EX100_WI.a.fm
   method: binarc
   source:
@@ -247,6 +271,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI.imd
+- name: obj/P_EX100_WI.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_WI.sqd
 - name: obj/P_EX100_XM.a.fm
   method: binarc
   source:
@@ -255,6 +287,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM.imd
+- name: obj/P_EX100_XM.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM.sqd
 - name: obj/P_EX100_BTLF.a.fm
   method: binarc
   source:
@@ -263,6 +303,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_BTLF.imd
+- name: obj/P_EX100_BTLF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_BTLF.sqd
 - name: obj/P_EX100_NM_BTLF.a.fm
   method: binarc
   source:
@@ -271,6 +319,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_NM_BTLF.imd
+- name: obj/P_EX100_NM_BTLF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_NM_BTLF.sqd
 - name: obj/P_EX100_TR_BTLF.a.fm
   method: binarc
   source:
@@ -279,6 +335,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR_BTLF.imd
+- name: obj/P_EX100_TR_BTLF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_BTLF.sqd
 - name: obj/P_EX100_WI_BTLF.a.fm
   method: binarc
   source:
@@ -287,6 +351,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI_BTLF.imd
+- name: obj/P_EX100_WI_BTLF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_BTLF.sqd
 - name: obj/P_EX100_XM_BTLF.a.fm
   method: binarc
   source:
@@ -294,6 +366,15 @@ assets:
     type: imgd
     method: copy
     source:
+    - name: obj/P_EX100_XM_BTLF.imd
+- name: obj/P_EX100_XM_BTLF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_BTLF.sqd
 - name: obj/P_EX100_MAGF.a.fm
   method: binarc
   source:
@@ -302,6 +383,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_MAGF.imd
+- name: obj/P_EX100_MAGF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.sqd
 - name: obj/P_EX100_WI_MAGF.a.fm
   method: binarc
   source:
@@ -310,6 +399,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI_MAGF.imd
+- name: obj/P_EX100_WI_MAGF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_MAGF.sqd
 - name: obj/P_EX100_TR_MAGF.a.fm
   method: binarc
   source:
@@ -318,6 +415,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR_MAGF.imd
+- name: obj/P_EX100_TR_MAGF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_MAGF.sqd
 - name: obj/P_EX100_NM_MAGF.a.fm
   method: binarc
   source:
@@ -326,6 +431,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_NM_MAGF.imd
+- name: obj/P_EX100_NM_MAGF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_NM_MAGF.sqd
 - name: obj/P_EX100_XM_MAGF.a.fm
   method: binarc
   source:
@@ -334,6 +447,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM_MAGF.imd
+- name: obj/P_EX100_XM_MAGF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_MAGF.sqd
 - name: obj/P_EX100_KH1F.a.fm
   method: binarc
   source:
@@ -342,6 +463,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_KH1F.imd
+- name: obj/P_EX100_KH1F.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_KH1F.sqd
 - name: obj/P_EX100_WI_KH1F.a.fm
   method: binarc
   source:
@@ -350,6 +479,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI_KH1F.imd
+- name: obj/P_EX100_WI_KH1F.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_KH1F.sqd
 - name: obj/P_EX100_TR_KH1F.a.fm
   method: binarc
   source:
@@ -358,6 +495,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR_KH1F.imd
+- name: obj/P_EX100_TR_KH1F.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_KH1F.sqd
 - name: obj/P_EX100_NM_KH1F.a.fm
   method: binarc
   source:
@@ -366,6 +511,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_NM_KH1F.imd
+- name: obj/P_EX100_NM_KH1F.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_NM_KH1F.sqd
 - name: obj/P_EX100_XM_KH1F.a.fm
   method: binarc
   source:
@@ -374,6 +527,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM_KH1F.imd
+- name: obj/P_EX100_XM_KH1F.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_KH1F.sqd
 - name: obj/P_EX100_TRIF.a.fm
   method: binarc
   source:
@@ -382,6 +543,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TRIF.imd
+- name: obj/P_EX100_TRIF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_TRIF.sqd
 - name: obj/P_EX100_NM_TRIF.a.fm
   method: binarc
   source:
@@ -390,6 +559,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_NM_TRIF.imd
+- name: obj/P_EX100_NM_TRIF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_NM_TRIF.sqd
 - name: obj/P_EX100_TR_TRIF.a.fm
   method: binarc
   source:
@@ -398,6 +575,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR_TRIF.imd
+- name: obj/P_EX100_TR_TRIF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_TRIF.sqd
 - name: obj/P_EX100_WI_TRIF.a.fm
   method: binarc
   source:
@@ -406,6 +591,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI_TRIF.imd
+- name: obj/P_EX100_WI_TRIF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_TRIF.sqd
 - name: obj/P_EX100_XM_TRIF.a.fm
   method: binarc
   source:
@@ -414,6 +607,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM_TRIF.imd
+- name: obj/P_EX100_XM_TRIF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_TRIF.sqd
 - name: obj/P_EX100_ULTF.a.fm
   method: binarc
   source:
@@ -422,6 +623,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_ULTF.imd
+- name: obj/P_EX100_ULTF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_ULTF.sqd
 - name: obj/P_EX100_WI_ULTF.a.fm
   method: binarc
   source:
@@ -430,6 +639,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI_ULTF.imd
+- name: obj/P_EX100_WI_ULTF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_WI_ULTF.sqd
 - name: obj/P_EX100_TR_ULTF.a.fm
   method: binarc
   source:
@@ -438,6 +655,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR_ULTF.imd
+- name: obj/P_EX100_TR_ULTF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_TR_ULTF.sqd
 - name: obj/P_EX100_NM_ULTF.a.fm
   method: binarc
   source:
@@ -446,6 +671,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_NM_ULTF.imd
+- name: obj/P_EX100_NM_ULTF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_NM_ULTF.sqd
 - name: obj/P_EX100_XM_ULTF.a.fm
   method: binarc
   source:
@@ -454,6 +687,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM_ULTF.imd
+- name: obj/P_EX100_XM_ULTF.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX100_XM_ULTF.sqd
 - name: obj/P_CA000.a.fm
   method: copy
   source:
