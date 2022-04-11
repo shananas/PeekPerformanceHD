@@ -184,37 +184,133 @@ assets:
 
 #Obj
 - name: obj/N_HB040_BTL.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/N_HB040_BTL.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/N_HB040_BTL.imd
+- name: obj/N_HB040_BTL.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/N_HB040_BTL.sqd
 - name: obj/P_EX350.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_EX350.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX350.imd
+- name: obj/P_EX350.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX350.sqd
 - name: obj/P_AL010.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_AL010.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_AL010.imd
+- name: obj/P_AL010.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_AL010.sqd
 - name: obj/P_EX330.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_EX330.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX330.imd
+- name: obj/P_EX330.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX330.sqd
 - name: obj/P_EX110.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_EX110.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_EX110.imd
+- name: obj/P_EX110.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_EX110.sqd
 - name: obj/P_AL000.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_AL000.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_AL000.imd
+- name: obj/P_AL000.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_AL000.sqd
 - name: obj/P_LM100.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_LM100.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_LM100.imd
+- name: obj/P_LM100.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_LM100.sqd
 - name: obj/P_MU010.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_MU010.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_MU010.imd
+- name: obj/P_MU010.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_MU010.sqd
 - name: obj/P_EX100.a.fm
   method: binarc
   source:
@@ -696,37 +792,133 @@ assets:
     source:
     - name: obj/P_EX100_XM_ULTF.sqd
 - name: obj/P_CA000.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_CA000.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_CA000.imd
+- name: obj/P_CA000.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_CA000.sqd
 - name: obj/P_CA000_HUMAN.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_CA000_HUMAN.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_CA000_HUMAN.imd
+- name: obj/P_CA000_HUMAN.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_CA000_HUMAN.sqd
 - name: obj/P_CA000_HUMAN_LOW.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_CA000_HUMAN_LOW.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_CA000_HUMAN_LOW.imd
+- name: obj/P_CA000_HUMAN_LOW.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_CA000_HUMAN_LOW.sqd
 - name: obj/P_CA000_LOW.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_CA000_LOW.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_CA000_LOW.imd
+- name: obj/P_CA000_LOW.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_CA000_LOW.sqd
 - name: obj/P_NM000.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_NM000.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_NM000.imd
+- name: obj/P_NM000.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_NM000.sqd
 - name: obj/P_NM000_SANTA.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_NM000_SANTA.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_NM000_SANTA.imd
+- name: obj/P_NM000_SANTA.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_NM000_SANTA.sqd
 - name: obj/P_LK030.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_LK030.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_LK030.imd
+- name: obj/P_LK030.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_LK030.sqd
 - name: obj/P_LK020.a.fm
-  method: copy
+  method: binarc
   source:
-  - name: obj/P_LK020.a.fm
+  - name: face
+    type: imgd
+    method: copy
+    source:
+    - name: obj/P_LK020.imd
+- name: obj/P_LK020.a.fm
+  method: binarc
+  source:
+  - name: face
+    type: seqd
+    method: copy
+    source:
+    - name: obj/P_LK020.sqd
 
 
 #HudElement
