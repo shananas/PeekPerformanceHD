@@ -43,55 +43,55 @@ assets:
 - name: itempic/item-221.imd #Lamp Charm
   method: copy
   source:
-  - name: itempic/Lamp Charm.png
+  - name: itempic/Lamp Charm.imd
 - name: itempic/item-222.imd #Ukulele Charm
   method: copy
   source:
-  - name: itempic/Ukulele Charm.png
+  - name: itempic/Ukulele Charm.imd
 - name: itempic/item-223.imd #Feather Charm
   method: copy
   source:
-  - name: itempic/Feather Charm.png
+  - name: itempic/Feather Charm.imd
 - name: itempic/item-224.imd #Baseball Charm
   method: copy
   source:
-  - name: itempic/Baseball Charm.png
+  - name: itempic/Baseball Charm.imd
 - name: itempic/item-266.imd #Valor Form
   method: copy
   source:
-  - name: itempic/Valor Form.png
+  - name: itempic/Valor Form.imd
 - name: itempic/item-267.imd #Wisdom Form
   method: copy
   source:
-  - name: itempic/Wisdom Form.png
+  - name: itempic/Wisdom Form.imd
 - name: itempic/item-268.imd #Master Form
   method: copy
   source:
-  - name: itempic/Master Form.png
+  - name: itempic/Master Form.imd
 - name: itempic/item-269.imd #Final Form
   method: copy
   source:
-  - name: itempic/Final Form.png
+  - name: itempic/Final Form.imd
 - name: itempic/item-320.imd #Limit Form
   method: copy
   source:
-  - name: itempic/Limit Form.png
+  - name: itempic/Limit Form.imd
 - name: itempic/item-242.imd #Promise Charm
   method: copy
   source:
-  - name: itempic/Promise Charm.png
+  - name: itempic/Promise Charm.imd
 - name: itempic/item-321.imd #Proof of Connection
   method: copy
   source:
-  - name: itempic/Proof of Connection.png
+  - name: itempic/Proof of Connection.imd
 - name: itempic/item-322.imd #Proof of Nonexistence
   method: copy
   source:
-  - name: itempic/Proof of Nonexistence.png
+  - name: itempic/Proof of Nonexistence.imd
 - name: itempic/item-323.imd #Proof of Peace
   method: copy
   source:
-  - name: itempic/Proof of Peace.png
+  - name: itempic/Proof of Peace.imd
 - name: itempic/item-241.imd #Report
   method: imd
   source:
