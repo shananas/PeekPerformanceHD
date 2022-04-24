@@ -19,87 +19,87 @@ assets:
 - name: itempic/item-324.imd #Fire
   method: imd
   source:
-  - name: itempic/fire.imd
+  - name: itempic/fire.png
 - name: itempic/item-325.imd #Blizzard
   method: imd
   source:
-  - name: itempic/blizzard.imd
+  - name: itempic/blizzard.png
 - name: itempic/item-326.imd #Thunder
   method: imd
   source:
-  - name: itempic/thunder.imd
+  - name: itempic/thunder.png
 - name: itempic/item-327.imd #Cure
   method: imd
   source:
-  - name: itempic/cure.imd
+  - name: itempic/cure.png
 - name: itempic/item-328.imd #Magnet
   method: imd
   source:
-  - name: itempic/magnet.imd
+  - name: itempic/magnet.png
 - name: itempic/item-329.imd #Reflect
   method: imd
   source:
-  - name: itempic/reflect.imd
+  - name: itempic/reflect.png
 - name: itempic/item-221.imd #Lamp Charm
   method: copy
   source:
-  - name: itempic/Lamp Charm.imd
+  - name: itempic/Lamp Charm.png
 - name: itempic/item-222.imd #Ukulele Charm
   method: copy
   source:
-  - name: itempic/Ukulele Charm.imd
+  - name: itempic/Ukulele Charm.png
 - name: itempic/item-223.imd #Feather Charm
   method: copy
   source:
-  - name: itempic/Feather Charm.imd
+  - name: itempic/Feather Charm.png
 - name: itempic/item-224.imd #Baseball Charm
   method: copy
   source:
-  - name: itempic/Baseball Charm.imd
+  - name: itempic/Baseball Charm.png
 - name: itempic/item-266.imd #Valor Form
   method: copy
   source:
-  - name: itempic/Valor Form.imd
+  - name: itempic/Valor Form.png
 - name: itempic/item-267.imd #Wisdom Form
   method: copy
   source:
-  - name: itempic/Wisdom Form.imd
+  - name: itempic/Wisdom Form.png
 - name: itempic/item-268.imd #Master Form
   method: copy
   source:
-  - name: itempic/Master Form.imd
+  - name: itempic/Master Form.png
 - name: itempic/item-269.imd #Final Form
   method: copy
   source:
-  - name: itempic/Final Form.imd
+  - name: itempic/Final Form.png
 - name: itempic/item-320.imd #Limit Form
   method: copy
   source:
-  - name: itempic/Limit Form.imd
+  - name: itempic/Limit Form.png
 - name: itempic/item-242.imd #Promise Charm
   method: copy
   source:
-  - name: itempic/Promise Charm.imd
+  - name: itempic/Promise Charm.png
 - name: itempic/item-321.imd #Proof of Connection
   method: copy
   source:
-  - name: itempic/Proof of Connection.imd
+  - name: itempic/Proof of Connection.png
 - name: itempic/item-322.imd #Proof of Nonexistence
   method: copy
   source:
-  - name: itempic/Proof of Nonexistence.imd
+  - name: itempic/Proof of Nonexistence.png
 - name: itempic/item-323.imd #Proof of Peace
   method: copy
   source:
-  - name: itempic/Proof of Peace.imd
+  - name: itempic/Proof of Peace.png
 - name: itempic/item-241.imd #Report
   method: imd
   source:
-  - name: itempic/Reports.imd
+  - name: itempic/Reports.png
 - name: itempic/item-244.imd #Bingus
   method: imd
   source:
-  - name: itempic/Hades Cup.imd
+  - name: itempic/Hades Cup.png
 - name: itempic/item-231.imd #Namine
   method: imd
   source:
@@ -108,6 +108,8 @@ assets:
 
 #Room Transition
 - name: field2d/jp/al0field.2dd
+  multi:
+    - name: field2d/us/al0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -116,6 +118,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/bb0field.2dd
+  multi:
+    - name: field2d/us/bb0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -124,6 +128,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/ca0field.2dd
+  multi:
+    - name: field2d/us/ca0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -132,6 +138,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/dc0field.2dd
+  multi:
+    - name: field2d/us/dc0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -140,6 +148,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/di0field.2dd
+  multi:
+    - name: field2d/us/di0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -148,6 +158,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/eh0field.2dd
+  multi:
+    - name: field2d/us/eh0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -156,6 +168,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/es0field.2dd
+  multi:
+    - name: field2d/us/es0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -164,6 +178,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/hb0field.2dd
+  multi:
+    - name: field2d/us/hb0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -172,6 +188,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/he0field.2dd
+  multi:
+    - name: field2d/us/he0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -180,6 +198,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/lk0field.2dd
+  multi:
+    - name: field2d/us/lk0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -188,6 +208,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/lm0field.2dd
+  multi:
+    - name: field2d/us/lm0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -196,6 +218,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/mu0field.2dd
+  multi:
+    - name: field2d/us/mu0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -204,6 +228,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/nm0field.2dd
+  multi:
+    - name: field2d/us/nm0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -212,6 +238,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/po0field.2dd
+  multi:
+    - name: field2d/us/po0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -220,6 +248,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/tr0field.2dd
+  multi:
+    - name: field2d/us/tr0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -228,6 +258,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/tt0field.2dd
+  multi:
+    - name: field2d/us/tt0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -236,6 +268,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/wi0field.2dd
+  multi:
+    - name: field2d/us/wi0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -244,6 +278,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/wm0field.2dd
+  multi:
+    - name: field2d/us/wm0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -252,6 +288,8 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/zz0field.2dd
+  multi:
+    - name: field2d/us/zz0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -262,6 +300,8 @@ assets:
 
 #Obj
 - name: obj/N_HB040_BTL.a.fm
+  multi:
+    - name: obj/N_HB040_BTL.a.us
   method: binarc
   source:
   - name: face
@@ -269,15 +309,14 @@ assets:
     method: copy
     source:
     - name: obj/N_HB040_BTL.imd
-- name: obj/N_HB040_BTL.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/N_HB040_BTL.sqd
 - name: obj/P_EX350.a.fm
+  multi:
+    - name: obj/P_EX350.a.us
   method: binarc
   source:
   - name: face
@@ -285,15 +324,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX350.imd
-- name: obj/P_EX350.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX350.sqd
 - name: obj/P_AL010.a.fm
+  multi:
+    - name: obj/P_AL010.a.us
   method: binarc
   source:
   - name: face
@@ -301,15 +339,14 @@ assets:
     method: copy
     source:
     - name: obj/P_AL010.imd
-- name: obj/P_AL010.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_AL010.sqd
 - name: obj/P_EX330.a.fm
+  multi:
+    - name: obj/P_EX330.a.us
   method: binarc
   source:
   - name: face
@@ -317,15 +354,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX330.imd
-- name: obj/P_EX330.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX330.sqd
 - name: obj/P_EX110.a.fm
+  multi:
+    - name: obj/P_EX110.a.us
   method: binarc
   source:
   - name: face
@@ -333,15 +369,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX110.imd
-- name: obj/P_EX110.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX110.sqd
 - name: obj/P_AL000.a.fm
+  multi:
+    - name: obj/P_AL000.a.us
   method: binarc
   source:
   - name: face
@@ -349,15 +384,14 @@ assets:
     method: copy
     source:
     - name: obj/P_AL000.imd
-- name: obj/P_AL000.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_AL000.sqd
 - name: obj/P_LM100.a.fm
+  multi:
+    - name: obj/P_LM100.a.us
   method: binarc
   source:
   - name: face
@@ -365,15 +399,14 @@ assets:
     method: copy
     source:
     - name: obj/P_LM100.imd
-- name: obj/P_LM100.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_LM100.sqd
 - name: obj/P_MU010.a.fm
+  multi:
+    - name: obj/P_MU010.a.us
   method: binarc
   source:
   - name: face
@@ -381,15 +414,14 @@ assets:
     method: copy
     source:
     - name: obj/P_MU010.imd
-- name: obj/P_MU010.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_MU010.sqd
 - name: obj/P_EX100.a.fm
+  multi:
+    - name: obj/P_EX100.a.us
   method: binarc
   source:
   - name: face
@@ -397,15 +429,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100.imd
-- name: obj/P_EX100.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100.sqd
 - name: obj/P_EX100_NM.a.fm
+  multi:
+    - name: obj/P_EX100_NM.a.us
   method: binarc
   source:
   - name: face
@@ -413,15 +444,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_NM.imd
-- name: obj/P_EX100_NM.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_NM.sqd
 - name: obj/P_EX100_TR.a.fm
+  multi:
+    - name: obj/P_EX100.a.us
   method: binarc
   source:
   - name: face
@@ -429,15 +459,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR.imd
-- name: obj/P_EX100_TR.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_TR.sqd
 - name: obj/P_EX100_WI.a.fm
+  multi:
+    - name: obj/P_EX100_WI.a.us
   method: binarc
   source:
   - name: face
@@ -445,15 +474,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI.imd
-- name: obj/P_EX100_WI.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_WI.sqd
 - name: obj/P_EX100_XM.a.fm
+  multi:
+    - name: obj/P_EX100_XM.a.us
   method: binarc
   source:
   - name: face
@@ -461,15 +489,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM.imd
-- name: obj/P_EX100_XM.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_XM.sqd
 - name: obj/P_EX100_BTLF.a.fm
+  multi:
+    - name: obj/P_EX100_BTLF.a.us
   method: binarc
   source:
   - name: face
@@ -477,15 +504,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_BTLF.imd
-- name: obj/P_EX100_BTLF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_BTLF.sqd
 - name: obj/P_EX100_NM_BTLF.a.fm
+  multi:
+    - name: obj/P_EX100_NM_BTLF.a.us
   method: binarc
   source:
   - name: face
@@ -493,15 +519,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_NM_BTLF.imd
-- name: obj/P_EX100_NM_BTLF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_NM_BTLF.sqd
 - name: obj/P_EX100_TR_BTLF.a.fm
+  multi:
+    - name: obj/P_EX100_TR_BTLF.a.us
   method: binarc
   source:
   - name: face
@@ -509,15 +534,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR_BTLF.imd
-- name: obj/P_EX100_TR_BTLF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_TR_BTLF.sqd
 - name: obj/P_EX100_WI_BTLF.a.fm
+  multi:
+    - name: obj/P_EX100_WI_BTLF.a.us
   method: binarc
   source:
   - name: face
@@ -525,15 +549,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI_BTLF.imd
-- name: obj/P_EX100_WI_BTLF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_WI_BTLF.sqd
 - name: obj/P_EX100_XM_BTLF.a.fm
+  multi:
+    - name: obj/P_EX100_XM_BTLF.a.us
   method: binarc
   source:
   - name: face
@@ -541,15 +564,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM_BTLF.imd
-- name: obj/P_EX100_XM_BTLF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_XM_BTLF.sqd
 - name: obj/P_EX100_MAGF.a.fm
+  multi:
+    - name: obj/P_EX100_MAGF.a.us
   method: binarc
   source:
   - name: face
@@ -557,15 +579,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_MAGF.imd
-- name: obj/P_EX100_MAGF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_MAGF.sqd
 - name: obj/P_EX100_WI_MAGF.a.fm
+  multi:
+    - name: obj/P_EX100_WI_MAGF.a.us
   method: binarc
   source:
   - name: face
@@ -573,15 +594,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI_MAGF.imd
-- name: obj/P_EX100_WI_MAGF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_WI_MAGF.sqd
 - name: obj/P_EX100_TR_MAGF.a.fm
+  multi:
+    - name: obj/P_EX100_TR_MAGF.a.us
   method: binarc
   source:
   - name: face
@@ -589,15 +609,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR_MAGF.imd
-- name: obj/P_EX100_TR_MAGF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_TR_MAGF.sqd
 - name: obj/P_EX100_NM_MAGF.a.fm
+  multi:
+    - name: obj/P_EX100_NM_MAGF.a.us
   method: binarc
   source:
   - name: face
@@ -605,15 +624,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_NM_MAGF.imd
-- name: obj/P_EX100_NM_MAGF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_NM_MAGF.sqd
 - name: obj/P_EX100_XM_MAGF.a.fm
+  multi:
+    - name: obj/P_EX100_XM_MAGF.a.us
   method: binarc
   source:
   - name: face
@@ -621,15 +639,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM_MAGF.imd
-- name: obj/P_EX100_XM_MAGF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_XM_MAGF.sqd
 - name: obj/P_EX100_KH1F.a.fm
+  multi:
+    - name: obj/P_EX100_KH1F.a.us
   method: binarc
   source:
   - name: face
@@ -637,15 +654,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_KH1F.imd
-- name: obj/P_EX100_KH1F.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_KH1F.sqd
 - name: obj/P_EX100_WI_KH1F.a.fm
+  multi:
+    - name: obj/P_EX100_WI_KH1F.a.us
   method: binarc
   source:
   - name: face
@@ -653,15 +669,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI_KH1F.imd
-- name: obj/P_EX100_WI_KH1F.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_WI_KH1F.sqd
 - name: obj/P_EX100_TR_KH1F.a.fm
+  multi:
+    - name: obj/P_EX100_TR_KH1F.a.us
   method: binarc
   source:
   - name: face
@@ -669,15 +684,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR_KH1F.imd
-- name: obj/P_EX100_TR_KH1F.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_TR_KH1F.sqd
 - name: obj/P_EX100_NM_KH1F.a.fm
+  multi:
+    - name: obj/P_EX100_NM_KH1F.a.us
   method: binarc
   source:
   - name: face
@@ -685,15 +699,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_NM_KH1F.imd
-- name: obj/P_EX100_NM_KH1F.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_NM_KH1F.sqd
 - name: obj/P_EX100_XM_KH1F.a.fm
+  multi:
+    - name: obj/P_EX100_XM_KH1F.a.us
   method: binarc
   source:
   - name: face
@@ -701,15 +714,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM_KH1F.imd
-- name: obj/P_EX100_XM_KH1F.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_XM_KH1F.sqd
 - name: obj/P_EX100_TRIF.a.fm
+  multi:
+    - name: obj/P_EX100_TRIF.a.us
   method: binarc
   source:
   - name: face
@@ -717,15 +729,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TRIF.imd
-- name: obj/P_EX100_TRIF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_TRIF.sqd
 - name: obj/P_EX100_NM_TRIF.a.fm
+  multi:
+    - name: obj/P_EX100_NM_TRIF.a.us
   method: binarc
   source:
   - name: face
@@ -733,15 +744,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_NM_TRIF.imd
-- name: obj/P_EX100_NM_TRIF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_NM_TRIF.sqd
 - name: obj/P_EX100_TR_TRIF.a.fm
+  multi:
+    - name: obj/P_EX100_TR_TRIF.a.us
   method: binarc
   source:
   - name: face
@@ -749,15 +759,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR_TRIF.imd
-- name: obj/P_EX100_TR_TRIF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_TR_TRIF.sqd
 - name: obj/P_EX100_WI_TRIF.a.fm
+  multi:
+    - name: obj/P_EX100_WI_TRIF.a.us
   method: binarc
   source:
   - name: face
@@ -765,15 +774,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI_TRIF.imd
-- name: obj/P_EX100_WI_TRIF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_WI_TRIF.sqd
 - name: obj/P_EX100_XM_TRIF.a.fm
+  multi:
+    - name: obj/P_EX100_XM_TRIF.a.us
   method: binarc
   source:
   - name: face
@@ -781,15 +789,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM_TRIF.imd
-- name: obj/P_EX100_XM_TRIF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_XM_TRIF.sqd
 - name: obj/P_EX100_ULTF.a.fm
+  multi:
+    - name: obj/P_EX100_ULTF.a.us
   method: binarc
   source:
   - name: face
@@ -797,15 +804,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_ULTF.imd
-- name: obj/P_EX100_ULTF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_ULTF.sqd
 - name: obj/P_EX100_WI_ULTF.a.fm
+  multi:
+    - name: obj/P_EX100_WI_ULTF.a.us
   method: binarc
   source:
   - name: face
@@ -813,15 +819,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_WI_ULTF.imd
-- name: obj/P_EX100_WI_ULTF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_WI_ULTF.sqd
 - name: obj/P_EX100_TR_ULTF.a.fm
+  multi:
+    - name: obj/P_EX100_TR_ULTF.a.us
   method: binarc
   source:
   - name: face
@@ -829,15 +834,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_TR_ULTF.imd
-- name: obj/P_EX100_TR_ULTF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_TR_ULTF.sqd
 - name: obj/P_EX100_NM_ULTF.a.fm
+  multi:
+    - name: obj/P_EX100_NM_ULTF.a.us
   method: binarc
   source:
   - name: face
@@ -845,15 +849,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_NM_ULTF.imd
-- name: obj/P_EX100_NM_ULTF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_NM_ULTF.sqd
 - name: obj/P_EX100_XM_ULTF.a.fm
+  multi:
+    - name: obj/P_EX100_XM_ULTF.a.us
   method: binarc
   source:
   - name: face
@@ -861,15 +864,14 @@ assets:
     method: copy
     source:
     - name: obj/P_EX100_XM_ULTF.imd
-- name: obj/P_EX100_XM_ULTF.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_EX100_XM_ULTF.sqd
 - name: obj/P_CA000.a.fm
+  multi:
+    - name: obj/P_CA000.a.us
   method: binarc
   source:
   - name: face
@@ -877,15 +879,14 @@ assets:
     method: copy
     source:
     - name: obj/P_CA000.imd
-- name: obj/P_CA000.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_CA000.sqd
 - name: obj/P_CA000_HUMAN.a.fm
+  multi:
+    - name: obj/P_CA000_HUMAN.a.us
   method: binarc
   source:
   - name: face
@@ -893,15 +894,14 @@ assets:
     method: copy
     source:
     - name: obj/P_CA000_HUMAN.imd
-- name: obj/P_CA000_HUMAN.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_CA000_HUMAN.sqd
 - name: obj/P_CA000_HUMAN_LOW.a.fm
+  multi:
+    - name: obj/P_CA000_HUMAN_LOW.a.us
   method: binarc
   source:
   - name: face
@@ -909,15 +909,14 @@ assets:
     method: copy
     source:
     - name: obj/P_CA000_HUMAN_LOW.imd
-- name: obj/P_CA000_HUMAN_LOW.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_CA000_HUMAN_LOW.sqd
 - name: obj/P_CA000_LOW.a.fm
+  multi:
+    - name: obj/P_CA000_LOW.a.us
   method: binarc
   source:
   - name: face
@@ -925,15 +924,14 @@ assets:
     method: copy
     source:
     - name: obj/P_CA000_LOW.imd
-- name: obj/P_CA000_LOW.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_CA000_LOW.sqd
 - name: obj/P_NM000.a.fm
+  multi:
+    - name: obj/P_NM000.a.us
   method: binarc
   source:
   - name: face
@@ -941,15 +939,14 @@ assets:
     method: copy
     source:
     - name: obj/P_NM000.imd
-- name: obj/P_NM000.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_NM000.sqd
 - name: obj/P_NM000_SANTA.a.fm
+  multi:
+    - name: obj/P_NM000_SANTA.a.us
   method: binarc
   source:
   - name: face
@@ -957,15 +954,14 @@ assets:
     method: copy
     source:
     - name: obj/P_NM000_SANTA.imd
-- name: obj/P_NM000_SANTA.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_NM000_SANTA.sqd
 - name: obj/P_LK030.a.fm
+  multi:
+    - name: obj/P_LK030.a.us
   method: binarc
   source:
   - name: face
@@ -973,15 +969,14 @@ assets:
     method: copy
     source:
     - name: obj/P_LK030.imd
-- name: obj/P_LK030.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
     source:
     - name: obj/P_LK030.sqd
 - name: obj/P_LK020.a.fm
+  multi:
+    - name: obj/P_LK020.a.us
   method: binarc
   source:
   - name: face
@@ -989,9 +984,6 @@ assets:
     method: copy
     source:
     - name: obj/P_LK020.imd
-- name: obj/P_LK020.a.fm
-  method: binarc
-  source:
   - name: face
     type: seqd
     method: copy
