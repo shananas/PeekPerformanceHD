@@ -993,26 +993,38 @@ assets:
 
 #HudElement
 - name: msn/jp/DC00_MS101.bar
+  multi:
+    - name: msn/us/DC00_MS101.bar
   method: copy
   source:
   - name: msn/DC00_MS101.bar
 - name: msn/jp/DC02_MS100.bar
+  multi:
+    - name: msn/us/DC02_MS100.bar
   method: copy
   source:
   - name: msn/DC02_MS100.bar
 - name: msn/jp/DC02_MS101.bar
+  multi:
+    - name: msn/us/DC02_MS101.bar
   method: copy
   source:
   - name: msn/DC02_MS101.bar
 - name: msn/jp/MU09_MS108.bar
+  multi:
+    - name: msn/us/MU09_MS108.bar
   method: copy
   source:
   - name: msn/MU09_MS108.bar
 - name: msn/jp/LK02_MS102.bar
+  multi:
+    - name: msn/us/LK02_MS102.bar
   method: copy
   source:
   - name: msn/LK02_MS102.bar
 - name: msn/jp/EH26_MS108.bar
+  multi:
+    - name: msn/us/EH26_MS108.bar
   method: copy
   source:
   - name: msn/EH26_MS108.bar
