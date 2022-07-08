@@ -108,8 +108,6 @@ assets:
 
 #Room Transition
 - name: field2d/jp/al0field.2dd
-  multi:
-    - name: field2d/us/al0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -118,8 +116,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/bb0field.2dd
-  multi:
-    - name: field2d/us/bb0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -128,8 +124,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/ca0field.2dd
-  multi:
-    - name: field2d/us/ca0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -138,8 +132,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/dc0field.2dd
-  multi:
-    - name: field2d/us/dc0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -148,8 +140,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/di0field.2dd
-  multi:
-    - name: field2d/us/di0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -158,8 +148,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/eh0field.2dd
-  multi:
-    - name: field2d/us/eh0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -168,8 +156,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/es0field.2dd
-  multi:
-    - name: field2d/us/es0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -178,8 +164,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/hb0field.2dd
-  multi:
-    - name: field2d/us/hb0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -188,8 +172,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/he0field.2dd
-  multi:
-    - name: field2d/us/he0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -198,8 +180,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/lk0field.2dd
-  multi:
-    - name: field2d/us/lk0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -208,8 +188,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/lm0field.2dd
-  multi:
-    - name: field2d/us/lm0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -218,8 +196,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/mu0field.2dd
-  multi:
-    - name: field2d/us/mu0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -228,8 +204,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/nm0field.2dd
-  multi:
-    - name: field2d/us/nm0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -238,8 +212,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/po0field.2dd
-  multi:
-    - name: field2d/us/po0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -248,8 +220,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/tr0field.2dd
-  multi:
-    - name: field2d/us/tr0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -258,8 +228,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/tt0field.2dd
-  multi:
-    - name: field2d/us/tt0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -268,8 +236,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/wi0field.2dd
-  multi:
-    - name: field2d/us/wi0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -278,8 +244,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/wm0field.2dd
-  multi:
-    - name: field2d/us/wm0field.2dd
   method: binarc
   source:
     - name: mapj
@@ -288,8 +252,6 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/zz0field.2dd
-  multi:
-    - name: field2d/us/zz0field.2dd
   method: binarc
   source:
     - name: mapj
