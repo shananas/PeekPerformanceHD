@@ -1,9 +1,10 @@
-name: Why?
+name: Peek Performance
 originalAuthor: Shananas
 assets:
 
 #font img
 - method: binarc
+  platform: ps2
   name: msg/jp/fontimage.bar
   multi:
     - name: msg/us/fontimage.bar
@@ -14,6 +15,11 @@ assets:
     source:
     - name: msg/icon_0.rgb
     type: RawBitmap
+- name: remastered/msg/us/fontimage.bar/US_fontimage_bar2.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PCFontImage.png
 
 #Icons
 - name: itempic/item-324.imd #Fire
@@ -105,9 +111,270 @@ assets:
   source:
   - name: itempic/FeetPics.png
 
+#PC
+- name: remastered/itempic/item-221.imd/-0.dds #Lamp Charm
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Lamp Charm.dds
+- name: remastered/itempic/item-222.imd/-0.dds #Ukulele Charm
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Ukulele Charm.dds
+- name: remastered/itempic/item-223.imd/-0.dds #Feather Charm
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Feather Charm.dds
+- name: remastered/itempic/item-224.imd/-0.dds #Baseball Charm
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Baseball Charm.dds
+- name: remastered/itempic/item-266.imd/-0.dds #Valor Form
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Valor Form.dds
+- name: remastered/itempic/item-267.imd/-0.dds #Wisdom Form
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Wisdom Form.dds
+- name: remastered/itempic/item-268.imd/-0.dds #Master Form
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Master Form.dds
+- name: remastered/itempic/item-269.imd/-0.dds #Final Form
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Final Form.dds
+- name: remastered/itempic/item-320.imd/-0.dds #Limit Form
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Limit Form.dds
+- name: remastered/itempic/item-242.imd/-0.dds #Promise Charm
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Promise Charm.dds
+- name: remastered/itempic/item-321.imd/-0.dds #Proof of Connection
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Proof of Connection.dds
+- name: remastered/itempic/item-322.imd/-0.dds #Proof of Nonexistence
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Proof of Nonexistence.dds
+- name: remastered/itempic/item-323.imd/-0.dds #Proof of Peace
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Proof of Peace.dds
+- name: remastered/itempic/item-324.imd/-0.dds #Fire
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Fire.dds
+- name: remastered/itempic/item-325.imd/-0.dds #Blizzard
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Blizzard.dds
+- name: remastered/itempic/item-326.imd/-0.dds #Thunder
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Thunder.dds
+- name: remastered/itempic/item-327.imd/-0.dds #Cure
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Cure.dds
+- name: remastered/itempic/item-328.imd/-0.dds #Magnet
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Magnet.dds
+- name: remastered/itempic/item-329.imd/-0.dds #Reflect
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/Reflect.dds
+
+#Hud Stuff
+- name: remastered/obj/P_EX330.a.us/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/-10.dds #Pan
+- name: remastered/obj/P_EX350.a.us/-15.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/-15.png #Chicken
+- name: remastered/obj/N_HB040_BTL.a.us/-18.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/-18.png #Dog
+- name: remastered/obj/P_NM000.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/normal jack.dds #Jack
+- name: remastered/obj/P_NM000_SANTA.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/christmas jack.dds #Jack chirstmas
+- name: remastered/obj/P_NM000_SANTA.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/christmas jack.dds #Jack chirstmas
+- name: remastered/obj/P_CA000.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/jack.dds #other jacks
+- name: remastered/obj/P_CA000_HUMAN.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/jack.dds #other jacks
+- name: remastered/obj/P_CA000_HUMAN_LOW.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/jack.dds #other jacks
+- name: remastered/obj/P_CA000_LOW.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/jack.dds #other jacks
+- name: remastered/obj/P_AL000.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/rat.dds #street rat
+- name: remastered/obj/P_MU010.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/family.dds #FA
+- name: remastered/obj/P_LM100.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/fish.dds #fish
+- name: remastered/obj/P_LK020.a.us/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/duck.dds #duck
+- name: remastered/obj/P_LK030.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/goof.dds #doge
+- name: remastered/obj/P_EX100.a.us/-8.dds
+  multi:
+    - name: remastered/obj/P_EX100_NM.a.us/-8.dds
+    - name: remastered/obj/P_EX110_BTLF.a.us/-0.dds
+    - name: remastered/obj/P_EX110.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/sora.dds #sora
+- name: remastered/obj/P_EX100_TR.a.us/-8.dds
+  multi:
+    - name: remastered/obj/P_EX100_WI.a.us/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/trsora.dds #sora
+- name: remastered/obj/P_EX100_BTLF.a.us/-4.dds
+  multi:
+    - name: remastered/obj/P_EX100_NM_BTLF.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/valor.dds #Valor sora
+- name: remastered/obj/P_EX100_TR_BTLF.a.us/-4.dds
+  multi:
+    - name: remastered/obj/P_EX100_WI_BTLF.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/trvalor.dds #Valor sora
+- name: remastered/obj/P_EX100_MAGF.a.us/-2.dds
+  multi:
+    - name: remastered/obj/P_EX100_NM_MAGF.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/wisdom.dds #Wisdom sora  
+- name: remastered/obj/P_EX100_TR_MAGF.a.us/-2.dds
+  multi:
+    - name: remastered/obj/P_EX100_WI_MAGF.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/trwisdom.dds #Wisdom sora
+- name: remastered/obj/P_EX100_KH1F.a.us/-9.dds
+  multi:
+    - name: remastered/obj/P_EX100_NM_KH1F.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/limit.dds #Limit sora
+- name: remastered/obj/P_EX100_TR_KH1F.a.us/-9.dds
+  multi:
+    - name: remastered/obj/P_EX100_WI_KH1F.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/trlimit.dds #Limit sora
+- name: remastered/obj/P_EX100_TRIF.a.us/-5.dds
+  multi:
+    - name: remastered/obj/P_EX100_NM_TRIF.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/master.dds #Master sora
+- name: remastered/obj/P_EX100_TR_TRIF.a.us/-5.dds
+  mtuli:
+    - name: remastered/obj/P_EX100_WI_TRIF.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/trmaster.dds #Master sora
+- name: remastered/obj/P_EX100_ULTF.a.us/-10.dds
+  multi:
+    - name: remastered/obj/P_EX100_NM_ULTF.a.us/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/final.dds #Final sora  
+- name: remastered/obj/P_EX100_TR_ULTF.a.us/-10.dds
+  multi:
+    - name: remastered/obj/P_EX100_WI_ULTF.a.us/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/trfinal.dds #Final sora
+
 
 #Room Transition
 - name: field2d/jp/al0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -116,6 +383,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/bb0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -124,6 +392,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/ca0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -132,6 +401,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/dc0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -140,6 +410,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/di0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -148,6 +419,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/eh0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -156,6 +428,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/es0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -164,6 +437,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/hb0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -172,6 +446,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/he0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -180,6 +455,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/lk0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -188,6 +464,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/lm0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -196,6 +473,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/mu0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -204,6 +482,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/nm0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -212,6 +491,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/po0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -220,6 +500,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/tr0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -228,6 +509,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/tt0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -236,6 +518,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/wi0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -244,6 +527,7 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/wm0field.2dd
+  platform: ps2
   method: binarc
   source:
     - name: mapj
@@ -252,6 +536,180 @@ assets:
       source:
         - name: field2d/mapj.png
 - name: field2d/jp/zz0field.2dd
+  platform: ps2
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+
+#PC
+- name: field2d/us/al0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/bb0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/ca0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/dc0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/di0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/eh0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/es0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/hb0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/he0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/lk0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/lm0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/mu0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/nm0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/po0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/tr0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/tt0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/wi0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/wm0field.2dd
+  platform: pc
+  method: binarc
+  source:
+    - name: mapj
+      type: imgd
+      method: imgd
+      source:
+        - name: field2d/mapj.png
+- name: field2d/us/zz0field.2dd
+  platform: pc
   method: binarc
   source:
     - name: mapj
@@ -262,8 +720,7 @@ assets:
 
 #Obj
 - name: obj/N_HB040_BTL.a.fm
-  multi:
-    - name: obj/N_HB040_BTL.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -277,8 +734,7 @@ assets:
     source:
     - name: obj/N_HB040_BTL.sqd
 - name: obj/P_EX350.a.fm
-  multi:
-    - name: obj/P_EX350.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -292,8 +748,7 @@ assets:
     source:
     - name: obj/P_EX350.sqd
 - name: obj/P_AL010.a.fm
-  multi:
-    - name: obj/P_AL010.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -307,8 +762,7 @@ assets:
     source:
     - name: obj/P_AL010.sqd
 - name: obj/P_EX330.a.fm
-  multi:
-    - name: obj/P_EX330.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -322,8 +776,7 @@ assets:
     source:
     - name: obj/P_EX330.sqd
 - name: obj/P_EX110.a.fm
-  multi:
-    - name: obj/P_EX110.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -337,8 +790,7 @@ assets:
     source:
     - name: obj/P_EX110.sqd
 - name: obj/P_AL000.a.fm
-  multi:
-    - name: obj/P_AL000.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -352,8 +804,7 @@ assets:
     source:
     - name: obj/P_AL000.sqd
 - name: obj/P_LM100.a.fm
-  multi:
-    - name: obj/P_LM100.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -367,8 +818,7 @@ assets:
     source:
     - name: obj/P_LM100.sqd
 - name: obj/P_MU010.a.fm
-  multi:
-    - name: obj/P_MU010.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -382,8 +832,7 @@ assets:
     source:
     - name: obj/P_MU010.sqd
 - name: obj/P_EX100.a.fm
-  multi:
-    - name: obj/P_EX100.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -397,8 +846,7 @@ assets:
     source:
     - name: obj/P_EX100.sqd
 - name: obj/P_EX100_NM.a.fm
-  multi:
-    - name: obj/P_EX100_NM.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -412,8 +860,7 @@ assets:
     source:
     - name: obj/P_EX100_NM.sqd
 - name: obj/P_EX100_TR.a.fm
-  multi:
-    - name: obj/P_EX100.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -427,8 +874,7 @@ assets:
     source:
     - name: obj/P_EX100_TR.sqd
 - name: obj/P_EX100_WI.a.fm
-  multi:
-    - name: obj/P_EX100_WI.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -442,8 +888,7 @@ assets:
     source:
     - name: obj/P_EX100_WI.sqd
 - name: obj/P_EX100_XM.a.fm
-  multi:
-    - name: obj/P_EX100_XM.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -457,8 +902,7 @@ assets:
     source:
     - name: obj/P_EX100_XM.sqd
 - name: obj/P_EX100_BTLF.a.fm
-  multi:
-    - name: obj/P_EX100_BTLF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -472,8 +916,7 @@ assets:
     source:
     - name: obj/P_EX100_BTLF.sqd
 - name: obj/P_EX100_NM_BTLF.a.fm
-  multi:
-    - name: obj/P_EX100_NM_BTLF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -487,8 +930,7 @@ assets:
     source:
     - name: obj/P_EX100_NM_BTLF.sqd
 - name: obj/P_EX100_TR_BTLF.a.fm
-  multi:
-    - name: obj/P_EX100_TR_BTLF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -502,8 +944,7 @@ assets:
     source:
     - name: obj/P_EX100_TR_BTLF.sqd
 - name: obj/P_EX100_WI_BTLF.a.fm
-  multi:
-    - name: obj/P_EX100_WI_BTLF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -517,8 +958,7 @@ assets:
     source:
     - name: obj/P_EX100_WI_BTLF.sqd
 - name: obj/P_EX100_XM_BTLF.a.fm
-  multi:
-    - name: obj/P_EX100_XM_BTLF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -532,8 +972,7 @@ assets:
     source:
     - name: obj/P_EX100_XM_BTLF.sqd
 - name: obj/P_EX100_MAGF.a.fm
-  multi:
-    - name: obj/P_EX100_MAGF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -547,8 +986,7 @@ assets:
     source:
     - name: obj/P_EX100_MAGF.sqd
 - name: obj/P_EX100_WI_MAGF.a.fm
-  multi:
-    - name: obj/P_EX100_WI_MAGF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -562,8 +1000,7 @@ assets:
     source:
     - name: obj/P_EX100_WI_MAGF.sqd
 - name: obj/P_EX100_TR_MAGF.a.fm
-  multi:
-    - name: obj/P_EX100_TR_MAGF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -577,8 +1014,7 @@ assets:
     source:
     - name: obj/P_EX100_TR_MAGF.sqd
 - name: obj/P_EX100_NM_MAGF.a.fm
-  multi:
-    - name: obj/P_EX100_NM_MAGF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -592,8 +1028,7 @@ assets:
     source:
     - name: obj/P_EX100_NM_MAGF.sqd
 - name: obj/P_EX100_XM_MAGF.a.fm
-  multi:
-    - name: obj/P_EX100_XM_MAGF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -607,8 +1042,7 @@ assets:
     source:
     - name: obj/P_EX100_XM_MAGF.sqd
 - name: obj/P_EX100_KH1F.a.fm
-  multi:
-    - name: obj/P_EX100_KH1F.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -622,8 +1056,7 @@ assets:
     source:
     - name: obj/P_EX100_KH1F.sqd
 - name: obj/P_EX100_WI_KH1F.a.fm
-  multi:
-    - name: obj/P_EX100_WI_KH1F.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -637,8 +1070,7 @@ assets:
     source:
     - name: obj/P_EX100_WI_KH1F.sqd
 - name: obj/P_EX100_TR_KH1F.a.fm
-  multi:
-    - name: obj/P_EX100_TR_KH1F.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -652,8 +1084,7 @@ assets:
     source:
     - name: obj/P_EX100_TR_KH1F.sqd
 - name: obj/P_EX100_NM_KH1F.a.fm
-  multi:
-    - name: obj/P_EX100_NM_KH1F.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -667,8 +1098,7 @@ assets:
     source:
     - name: obj/P_EX100_NM_KH1F.sqd
 - name: obj/P_EX100_XM_KH1F.a.fm
-  multi:
-    - name: obj/P_EX100_XM_KH1F.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -682,8 +1112,7 @@ assets:
     source:
     - name: obj/P_EX100_XM_KH1F.sqd
 - name: obj/P_EX100_TRIF.a.fm
-  multi:
-    - name: obj/P_EX100_TRIF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -697,8 +1126,7 @@ assets:
     source:
     - name: obj/P_EX100_TRIF.sqd
 - name: obj/P_EX100_NM_TRIF.a.fm
-  multi:
-    - name: obj/P_EX100_NM_TRIF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -712,8 +1140,7 @@ assets:
     source:
     - name: obj/P_EX100_NM_TRIF.sqd
 - name: obj/P_EX100_TR_TRIF.a.fm
-  multi:
-    - name: obj/P_EX100_TR_TRIF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -727,8 +1154,7 @@ assets:
     source:
     - name: obj/P_EX100_TR_TRIF.sqd
 - name: obj/P_EX100_WI_TRIF.a.fm
-  multi:
-    - name: obj/P_EX100_WI_TRIF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -742,8 +1168,7 @@ assets:
     source:
     - name: obj/P_EX100_WI_TRIF.sqd
 - name: obj/P_EX100_XM_TRIF.a.fm
-  multi:
-    - name: obj/P_EX100_XM_TRIF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -757,8 +1182,7 @@ assets:
     source:
     - name: obj/P_EX100_XM_TRIF.sqd
 - name: obj/P_EX100_ULTF.a.fm
-  multi:
-    - name: obj/P_EX100_ULTF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -772,8 +1196,7 @@ assets:
     source:
     - name: obj/P_EX100_ULTF.sqd
 - name: obj/P_EX100_WI_ULTF.a.fm
-  multi:
-    - name: obj/P_EX100_WI_ULTF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -787,8 +1210,7 @@ assets:
     source:
     - name: obj/P_EX100_WI_ULTF.sqd
 - name: obj/P_EX100_TR_ULTF.a.fm
-  multi:
-    - name: obj/P_EX100_TR_ULTF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -802,8 +1224,7 @@ assets:
     source:
     - name: obj/P_EX100_TR_ULTF.sqd
 - name: obj/P_EX100_NM_ULTF.a.fm
-  multi:
-    - name: obj/P_EX100_NM_ULTF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -817,8 +1238,7 @@ assets:
     source:
     - name: obj/P_EX100_NM_ULTF.sqd
 - name: obj/P_EX100_XM_ULTF.a.fm
-  multi:
-    - name: obj/P_EX100_XM_ULTF.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -832,8 +1252,7 @@ assets:
     source:
     - name: obj/P_EX100_XM_ULTF.sqd
 - name: obj/P_CA000.a.fm
-  multi:
-    - name: obj/P_CA000.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -847,8 +1266,7 @@ assets:
     source:
     - name: obj/P_CA000.sqd
 - name: obj/P_CA000_HUMAN.a.fm
-  multi:
-    - name: obj/P_CA000_HUMAN.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -862,8 +1280,7 @@ assets:
     source:
     - name: obj/P_CA000_HUMAN.sqd
 - name: obj/P_CA000_HUMAN_LOW.a.fm
-  multi:
-    - name: obj/P_CA000_HUMAN_LOW.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -877,8 +1294,7 @@ assets:
     source:
     - name: obj/P_CA000_HUMAN_LOW.sqd
 - name: obj/P_CA000_LOW.a.fm
-  multi:
-    - name: obj/P_CA000_LOW.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -892,8 +1308,7 @@ assets:
     source:
     - name: obj/P_CA000_LOW.sqd
 - name: obj/P_NM000.a.fm
-  multi:
-    - name: obj/P_NM000.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -907,8 +1322,7 @@ assets:
     source:
     - name: obj/P_NM000.sqd
 - name: obj/P_NM000_SANTA.a.fm
-  multi:
-    - name: obj/P_NM000_SANTA.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -922,8 +1336,7 @@ assets:
     source:
     - name: obj/P_NM000_SANTA.sqd
 - name: obj/P_LK030.a.fm
-  multi:
-    - name: obj/P_LK030.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -937,8 +1350,7 @@ assets:
     source:
     - name: obj/P_LK030.sqd
 - name: obj/P_LK020.a.fm
-  multi:
-    - name: obj/P_LK020.a.us
+  platform: ps2
   method: binarc
   source:
   - name: face
@@ -951,7 +1363,6 @@ assets:
     method: copy
     source:
     - name: obj/P_LK020.sqd
-
 
 #HudElement
 - name: msn/jp/DC00_MS101.bar
@@ -991,30 +1402,4742 @@ assets:
   source:
   - name: msn/EH26_MS108.bar
 
-#Special Screens
-- name: menu/fm/pause.2ld
-  method: copy
-  source:
-  - name: menu/pause.2ld
+#Menus
 - name: menu/fm/ending.2ld
+  platform: ps2
   method: copy
   source:
   - name: menu/ending.2ld
+- name: menu/fm/pause.2ld
+  platform: ps2
+  method: copy
+  source:
+  - name: menu/pause.2ld
+- name: menu/fm/camp.2ld
+  platform: ps2
+  method: copy
+  source:
+  - name: menu/camp.2ld
+- name: menu/fm/save.2ld
+  platform: ps2
+  method: copy
+  source:
+  - name: menu/save.2ld
+
+#PC Screens
+- name: menu/us/ending.2ld
+  platform: pc
+  method: copy
+  source:
+  - name: menu/PCending.2ld
+- name: menu/us/pause.2ld
+  platform: pc
+  method: copy
+  source:
+  - name: menu/PCpause.2ld
+- name: menu/us/save.2ld
+  platform: pc
+  method: copy
+  source:
+  - name: menu/PCsave.2ld
+- name: remastered/menu/us/save.2ld/US_save_2ld0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/US_save_2ld0.png #save
+- name: remastered/menu/us/pause.2ld/US_pause_2ld0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/PMember/US_pause_2ld0.dds #pause
+
 
 #Puzzles
 - name: menu/fm/jm_puzzle/puzzle010.bin
+  multi:
+    - name: menu/jm_puzzle/puzzle010.bin
   method: copy
   source:
   - name: menu/puzzle010.bin
 - name: menu/fm/jm_puzzle/puzzle020.bin
+  multi:
+    - name: menu/jm_puzzle/puzzle020.bin
   method: copy
   source:
   - name: menu/puzzle020.bin
 - name: menu/fm/jm_puzzle/puzzle030.bin
+  multi:
+    - name: menu/jm_puzzle/puzzle030.bin
   method: copy
   source:
   - name: menu/puzzle030.bin
 - name: menu/fm/jm_puzzle/puzzle050.bin
+  multi:
+    - name: menu/jm_puzzle/puzzle050.bin
   method: copy
   source:
   - name: menu/puzzle050.bin
+
+#Room Text
+- name: map/jp/al00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_0.sqd
+- name: map/jp/al01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_01.sqd
+- name: map/jp/al02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_02.sqd
+- name: map/jp/al03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_03.sqd
+- name: map/jp/al04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_04.sqd
+- name: map/jp/al05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_05.sqd
+- name: map/jp/al06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_06.sqd
+- name: map/jp/al07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_07.sqd
+- name: map/jp/al09.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_09.sqd
+- name: map/jp/al10.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_10.sqd
+- name: map/jp/al11.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_11.sqd
+- name: map/jp/al12.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_12.sqd
+- name: map/jp/al13.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_13.sqd
+- name: map/jp/al14.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_14.sqd
+- name: map/jp/al15.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: al_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: al_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/al_15.sqd
+- name: map/jp/bb00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_0.sqd
+- name: map/jp/bb01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_01.sqd
+- name: map/jp/bb02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_02.sqd
+- name: map/jp/bb03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_03.sqd
+- name: map/jp/bb04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_04.sqd
+- name: map/jp/bb05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_05.sqd
+- name: map/jp/bb06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_06.sqd
+- name: map/jp/bb07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_07.sqd
+- name: map/jp/bb08.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_08.sqd
+- name: map/jp/bb09.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_09.sqd
+- name: map/jp/bb10.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_10.sqd
+- name: map/jp/bb11.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_11.sqd
+- name: map/jp/bb12.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_12.sqd
+- name: map/jp/bb13.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_13.sqd
+- name: map/jp/bb14.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: bb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: bb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/bb_14.sqd
+- name: map/jp/ca00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_0.sqd
+- name: map/jp/ca01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_01.sqd
+- name: map/jp/ca02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_02.sqd
+- name: map/jp/ca03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_03.sqd
+- name: map/jp/ca04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_04.sqd
+- name: map/jp/ca05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_05.sqd
+- name: map/jp/ca06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_06.sqd
+- name: map/jp/ca07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_07.sqd
+- name: map/jp/ca08.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_08.sqd
+- name: map/jp/ca09.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_09.sqd
+- name: map/jp/ca10.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_10.sqd
+- name: map/jp/ca11.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_11.sqd
+- name: map/jp/ca12.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_12.sqd
+- name: map/jp/ca13.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_13.sqd
+- name: map/jp/ca14.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_14.sqd
+- name: map/jp/ca15.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_15.sqd
+- name: map/jp/ca16.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: ca_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: ca_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/ca_16.sqd
+- name: map/jp/dc00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: dc_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: dc_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/dc_0.sqd
+- name: map/jp/dc01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: dc_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: dc_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/dc_01.sqd
+- name: map/jp/dc02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: dc_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: dc_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/dc_02.sqd
+- name: map/jp/dc03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: dc_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: dc_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/dc_03.sqd
+- name: map/jp/dc04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: dc_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: dc_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/dc_04.sqd
+- name: map/jp/dc05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: dc_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: dc_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/dc_05.sqd
+- name: map/jp/dc06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: dc_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: dc_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/dc_06.sqd
+- name: map/jp/dc07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: dc_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: dc_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/dc_07.sqd
+- name: map/jp/eh00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_0.sqd
+- name: map/jp/eh01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_01.sqd
+- name: map/jp/eh02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_02.sqd
+- name: map/jp/eh03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_03.sqd
+- name: map/jp/eh04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_04.sqd
+- name: map/jp/eh05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_05.sqd
+- name: map/jp/eh06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_06.sqd
+- name: map/jp/eh07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_07.sqd
+- name: map/jp/eh08.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_08.sqd
+- name: map/jp/eh09.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_09.sqd
+- name: map/jp/eh10.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_10.sqd
+- name: map/jp/eh11.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_11.sqd
+- name: map/jp/eh12.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_12.sqd
+- name: map/jp/eh13.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_13.sqd
+- name: map/jp/eh14.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_14.sqd
+- name: map/jp/eh15.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_15.sqd
+- name: map/jp/eh16.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_16.sqd
+- name: map/jp/eh17.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_17.sqd
+- name: map/jp/eh18.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_18.sqd
+- name: map/jp/eh19.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_19.sqd
+- name: map/jp/eh20.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_20.sqd
+- name: map/jp/eh21.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_21.sqd
+- name: map/jp/eh22.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: eh_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: eh_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/eh_22.sqd
+- name: map/jp/hb00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_0.sqd
+- name: map/jp/hb01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_01.sqd
+- name: map/jp/hb02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_02.sqd
+- name: map/jp/hb03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_03.sqd
+- name: map/jp/hb04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_04.sqd
+- name: map/jp/hb05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_05.sqd
+- name: map/jp/hb06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_06.sqd
+- name: map/jp/hb07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_07.sqd
+- name: map/jp/hb08.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_08.sqd
+- name: map/jp/hb09.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_09.sqd
+- name: map/jp/hb10.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_10.sqd
+- name: map/jp/hb11.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_11.sqd
+- name: map/jp/hb12.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_12.sqd
+- name: map/jp/hb13.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_13.sqd
+- name: map/jp/hb14.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_14.sqd
+- name: map/jp/hb15.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_15.sqd
+- name: map/jp/hb16.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_16.sqd
+- name: map/jp/hb17.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_17.sqd
+- name: map/jp/hb18.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_18.sqd
+- name: map/jp/hb19.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_19.sqd
+- name: map/jp/hb21.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_21.sqd
+- name: map/jp/hb22.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_22.sqd
+- name: map/jp/hb23.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_23.sqd
+- name: map/jp/hb24.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_24.sqd
+- name: map/jp/hb25.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_25.sqd
+- name: map/jp/hb26.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_26.sqd
+- name: map/jp/hb33.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_3
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_3
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_33.sqd
+- name: map/jp/hb38.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: hb_3
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: hb_3
+    type: seqd
+    method: copy
+    source:
+    - name: map/hb_38.sqd
+- name: map/jp/he00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_0.sqd
+- name: map/jp/he01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_01.sqd
+- name: map/jp/he02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_02.sqd
+- name: map/jp/he03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_03.sqd
+- name: map/jp/he04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_04.sqd
+- name: map/jp/he05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_05.sqd
+- name: map/jp/he06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_06.sqd
+- name: map/jp/he07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_07.sqd
+- name: map/jp/he08.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_08.sqd
+- name: map/jp/he09.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_09.sqd
+- name: map/jp/he10.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_10.sqd
+- name: map/jp/he11.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_11.sqd
+- name: map/jp/he12.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_12.sqd
+- name: map/jp/he13.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_13.sqd
+- name: map/jp/he14.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_14.sqd
+- name: map/jp/he15.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_15.sqd
+- name: map/jp/he16.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_16.sqd
+- name: map/jp/he17.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: he_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: he_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/he_17.sqd
+- name: map/jp/lk00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_0.sqd
+- name: map/jp/lk01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_01.sqd
+- name: map/jp/lk02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_02.sqd
+- name: map/jp/lk03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_03.sqd
+- name: map/jp/lk04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_04.sqd
+- name: map/jp/lk05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_05.sqd
+- name: map/jp/lk06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_06.sqd
+- name: map/jp/lk07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_07.sqd
+- name: map/jp/lk08.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_08.sqd
+- name: map/jp/lk09.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_09.sqd
+- name: map/jp/lk10.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_10.sqd
+- name: map/jp/lk11.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_11.sqd
+- name: map/jp/lk12.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_12.sqd
+- name: map/jp/lk13.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_13.sqd
+- name: map/jp/lk14.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lk_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lk_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/lk_14.sqd
+- name: map/jp/lm00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lm_0.sqd
+- name: map/jp/lm01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lm_01.sqd
+- name: map/jp/lm02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lm_02.sqd
+- name: map/jp/lm03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lm_03.sqd
+- name: map/jp/lm04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lm_09.sqd
+- name: map/jp/lm05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lm_05.sqd
+- name: map/jp/lm06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lm_06.sqd
+- name: map/jp/lm07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lm_07.sqd
+- name: map/jp/lm08.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lm_08.sqd
+- name: map/jp/lm09.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/lm_09.sqd
+- name: map/jp/lm10.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: lm_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: lm_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/lm_10.sqd
+- name: map/jp/mu00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: mu_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: mu_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/mu_0.sqd
+- name: map/jp/mu01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: mu_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: mu_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/mu_01.sqd
+- name: map/jp/mu02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: mu_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: mu_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/mu_02.sqd
+- name: map/jp/mu03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: mu_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: mu_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/mu_03.sqd
+- name: map/jp/mu04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: mu_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: mu_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/mu_04.sqd
+- name: map/jp/mu05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: mu_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: mu_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/mu_05.sqd
+- name: map/jp/mu06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: mu_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: mu_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/mu_06.sqd
+- name: map/jp/mu07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: mu_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: mu_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/mu_07.sqd
+- name: map/jp/mu08.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: mu_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: mu_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/mu_08.sqd
+- name: map/jp/mu09.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: mu_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: mu_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/mu_09.sqd
+- name: map/jp/mu10.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: mu_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: mu_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/mu_10.sqd
+- name: map/jp/mu11.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: mu_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: mu_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/mu_11.sqd
+- name: map/jp/mu12.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: mu_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: mu_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/mu_12.sqd
+- name: map/jp/nm00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: nm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: nm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/nm_0.sqd
+- name: map/jp/nm01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: nm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: nm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/nm_09.sqd
+- name: map/jp/nm02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: nm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: nm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/nm_02.sqd
+- name: map/jp/nm03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: nm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: nm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/nm_03.sqd
+- name: map/jp/nm04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: nm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: nm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/nm_04.sqd
+- name: map/jp/nm05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: nm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: nm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/nm_05.sqd
+- name: map/jp/nm06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: nm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: nm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/nm_06.sqd
+- name: map/jp/nm07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: nm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: nm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/nm_07.sqd
+- name: map/jp/nm08.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: nm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: nm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/nm_08.sqd
+- name: map/jp/nm09.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: nm_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: nm_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/nm_09.sqd
+- name: map/jp/nm10.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: nm_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: nm_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/nm_10.sqd
+- name: map/jp/po00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: po_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: po_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/po_0.sqd
+- name: map/jp/po01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: po_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: po_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/po_01.sqd
+- name: map/jp/po02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: po_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: po_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/po_02.sqd
+- name: map/jp/po03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: po_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: po_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/po_03.sqd
+- name: map/jp/po04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: po_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: po_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/po_04.sqd
+- name: map/jp/po05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: po_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: po_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/po_05.sqd
+- name: map/jp/po06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: po_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: po_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/po_06.sqd
+- name: map/jp/po07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: po_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: po_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/po_07.sqd
+- name: map/jp/po08.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: po_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: po_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/po_08.sqd
+- name: map/jp/po09.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: po_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: po_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/po_09.sqd
+- name: map/jp/tr00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tr_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tr_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tr_0.sqd
+- name: map/jp/tr01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tr_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tr_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tr_01.sqd
+- name: map/jp/tr02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tr_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tr_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tr_02.sqd
+- name: map/jp/tr03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tr_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tr_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tr_03.sqd
+- name: map/jp/tr04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tr_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tr_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tr_04.sqd
+- name: map/jp/tr05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tr_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tr_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tr_05.sqd
+- name: map/jp/tr06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tr_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tr_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tr_06.sqd
+- name: map/jp/tr07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tr_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tr_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tr_07.sqd
+- name: map/jp/tr08.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tr_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tr_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tr_08.sqd
+- name: map/jp/tr09.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tr_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tr_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tr_09.sqd
+- name: map/jp/tr10.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tr_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tr_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/tr_10.sqd
+- name: map/jp/tr11.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tr_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tr_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/tr_11.sqd
+- name: map/jp/tt00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_0.sqd
+- name: map/jp/tt01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_01.sqd
+- name: map/jp/tt02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_02.sqd
+- name: map/jp/tt03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_03.sqd
+- name: map/jp/tt04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_04.sqd
+- name: map/jp/tt05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_05.sqd
+- name: map/jp/tt06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_06.sqd
+- name: map/jp/tt07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_07.sqd
+- name: map/jp/tt08.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_08.sqd
+- name: map/jp/tt09.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_09.sqd
+- name: map/jp/tt10.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_10.sqd
+- name: map/jp/tt11.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_11.sqd
+- name: map/jp/tt12.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_12.sqd
+- name: map/jp/tt13.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/tt_13.imd
+  - name: tt_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_13.sqd
+- name: map/jp/tt14.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_14.sqd
+- name: map/jp/tt15.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_15.sqd
+- name: map/jp/tt16.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_16.sqd
+- name: map/jp/tt17.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_17.sqd
+- name: map/jp/tt18.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_18.sqd
+- name: map/jp/tt19.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_1
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_1
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_19.sqd
+- name: map/jp/tt20.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_20.sqd
+- name: map/jp/tt21.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_21.sqd
+- name: map/jp/tt22.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_22.sqd
+- name: map/jp/tt23.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_23.sqd
+- name: map/jp/tt24.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_24.sqd
+- name: map/jp/tt25.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_25.sqd
+- name: map/jp/tt26.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_26.sqd
+- name: map/jp/tt27.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_27.sqd
+- name: map/jp/tt28.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_28.sqd
+- name: map/jp/tt29.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_2
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_2
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_29.sqd
+- name: map/jp/tt30.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_3
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_3
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_30.sqd
+- name: map/jp/tt31.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_3
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_3
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_31.sqd
+- name: map/jp/tt32.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_3
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_3
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_32.sqd
+- name: map/jp/tt33.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_3
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_3
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_33.sqd
+- name: map/jp/tt34.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_3
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_3
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_34.sqd
+- name: map/jp/tt35.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_3
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_3
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_35.sqd
+- name: map/jp/tt36.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_3
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_3
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_36.sqd
+- name: map/jp/tt37.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_3
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_3
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_37.sqd
+- name: map/jp/tt38.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_3
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_3
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_38.sqd
+- name: map/jp/tt39.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_3
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_3
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_39.sqd
+- name: map/jp/tt40.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: tt_4
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: tt_4
+    type: seqd
+    method: copy
+    source:
+    - name: map/tt_40.sqd
+- name: map/jp/wi00.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: wi_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: wi_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/wi_0.sqd
+- name: map/jp/wi01.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: wi_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: wi_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/wi_01.sqd
+- name: map/jp/wi02.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: wi_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: wi_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/wi_02.sqd
+- name: map/jp/wi03.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: wi_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: wi_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/wi_03.sqd
+- name: map/jp/wi04.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: wi_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: wi_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/wi_04.sqd
+- name: map/jp/wi05.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: wi_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: wi_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/wi_05.sqd
+- name: map/jp/wi06.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: wi_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: wi_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/wi_06.sqd
+- name: map/jp/wi07.map
+  platform: ps2
+  method: binarc
+  source:
+  - name: wi_0
+    type: imgd
+    method: copy
+    source:
+    - name: map/al_0.imd
+  - name: wi_0
+    type: seqd
+    method: copy
+    source:
+    - name: map/wi_07.sqd
+
+#PC Room Text
+- name: remastered/map/us/al00.bar/US_al00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al01.bar/US_al01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al02.bar/US_al02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al03.bar/US_al03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al04.bar/US_al04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al05.bar/US_al05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al06.bar/US_al06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al07.bar/US_al07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al09.bar/US_al09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al10.bar/US_al10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al11.bar/US_al11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al12.bar/US_al12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al13.bar/US_al13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al14.bar/US_al14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/al15.bar/US_al15_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb00.bar/US_bb00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb01.bar/US_bb01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb02.bar/US_bb02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb03.bar/US_bb03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb04.bar/US_bb04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb05.bar/US_bb05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb06.bar/US_bb06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb07.bar/US_bb07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb08.bar/US_bb08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb09.bar/US_bb09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb10.bar/US_bb10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb11.bar/US_bb11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb12.bar/US_bb12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb13.bar/US_bb13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/bb14.bar/US_bb14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca00.bar/US_ca00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca01.bar/US_ca01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca02.bar/US_ca02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca03.bar/US_ca03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca04.bar/US_ca04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca05.bar/US_ca05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca06.bar/US_ca06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca07.bar/US_ca07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca08.bar/US_ca08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca09.bar/US_ca09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca10.bar/US_ca10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca11.bar/US_ca11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca12.bar/US_ca12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca13.bar/US_ca13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca14.bar/US_ca14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca15.bar/US_ca15_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/ca16.bar/US_ca16_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc00.bar/US_dc00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc01.bar/US_dc01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc02.bar/US_dc02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc03.bar/US_dc03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc04.bar/US_dc04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc05.bar/US_dc05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc06.bar/US_dc06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/dc07.bar/US_dc07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh00.bar/US_eh00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh01.bar/US_eh01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh02.bar/US_eh02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh03.bar/US_eh03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh04.bar/US_eh04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh05.bar/US_eh05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh06.bar/US_eh06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh07.bar/US_eh07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh08.bar/US_eh08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh09.bar/US_eh09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh10.bar/US_eh10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh11.bar/US_eh11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh12.bar/US_eh12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh13.bar/US_eh13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh14.bar/US_eh14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh15.bar/US_eh15_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh16.bar/US_eh16_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh17.bar/US_eh17_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh18.bar/US_eh18_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh19.bar/US_eh19_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh20.bar/US_eh20_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh21.bar/US_eh21_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/eh22.bar/US_eh22_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb00.bar/US_hb00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb01.bar/US_hb01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb02.bar/US_hb02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb03.bar/US_hb03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb04.bar/US_hb04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb05.bar/US_hb05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb06.bar/US_hb06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb07.bar/US_hb07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb08.bar/US_hb08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb09.bar/US_hb09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb10.bar/US_hb10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb11.bar/US_hb11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb12.bar/US_hb12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb13.bar/US_hb13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb14.bar/US_hb14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb15.bar/US_hb15_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb16.bar/US_hb16_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb17.bar/US_hb17_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb18.bar/US_hb18_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb19.bar/US_hb19_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb20.bar/US_hb20_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb21.bar/US_hb21_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb22.bar/US_hb22_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb23.bar/US_hb23_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb24.bar/US_hb24_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb25.bar/US_hb25_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb26.bar/US_hb26_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb33.bar/US_hb33_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/hb38.bar/US_hb38_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he00.bar/US_he00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he01.bar/US_he01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he02.bar/US_he02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he03.bar/US_he03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he04.bar/US_he04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he05.bar/US_he05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he06.bar/US_he06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he07.bar/US_he07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he08.bar/US_he08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he09.bar/US_he09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he10.bar/US_he10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he11.bar/US_he11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he12.bar/US_he12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he13.bar/US_he13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he14.bar/US_he14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he15.bar/US_he15_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he16.bar/US_he16_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/he17.bar/US_he17_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk00.bar/US_lk00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk01.bar/US_lk01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk02.bar/US_lk02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk03.bar/US_lk03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk04.bar/US_lk04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk05.bar/US_lk05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk06.bar/US_lk06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk07.bar/US_lk07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk08.bar/US_lk08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk09.bar/US_lk09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk10.bar/US_lk10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk11.bar/US_lk11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk12.bar/US_lk12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk13.bar/US_lk13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lk14.bar/US_lk14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm00.bar/US_lm00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm01.bar/US_lm01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm02.bar/US_lm02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm03.bar/US_lm03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm04.bar/US_lm04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm05.bar/US_lm05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm06.bar/US_lm06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm07.bar/US_lm07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm08.bar/US_lm08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm09.bar/US_lm09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/lm10.bar/US_lm10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu00.bar/US_mu00_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.png
+- name: remastered/map/us/mu01.bar/US_mu01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu02.bar/US_mu02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu03.bar/US_mu03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu04.bar/US_mu04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu05.bar/US_mu05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu06.bar/US_mu06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu07.bar/US_mu07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu08.bar/US_mu08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu09.bar/US_mu09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu10.bar/US_mu10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu11.bar/US_mu11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/mu12.bar/US_mu12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm00.bar/US_nm00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm01.bar/US_nm01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm02.bar/US_nm02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm03.bar/US_nm03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm04.bar/US_nm04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm05.bar/US_nm05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm06.bar/US_nm06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm07.bar/US_nm07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm08.bar/US_nm08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm09.bar/US_nm09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/nm10.bar/US_nm10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po00.bar/US_po00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po01.bar/US_po01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po02.bar/US_po02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po03.bar/US_po03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po04.bar/US_po04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po05.bar/US_po05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po06.bar/US_po06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po07.bar/US_po07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po08.bar/US_po08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/po09.bar/US_po09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr00.bar/US_tr00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr01.bar/US_tr01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr02.bar/US_tr02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr03.bar/US_tr03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr04.bar/US_tr04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr05.bar/US_tr05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr06.bar/US_tr06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr07.bar/US_tr07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr08.bar/US_tr08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr09.bar/US_tr09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr10.bar/US_tr10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tr11.bar/US_tr11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt00.bar/US_tt00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt01.bar/US_tt01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt02.bar/US_tt02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt03.bar/US_tt03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt04.bar/US_tt04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt05.bar/US_tt05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt06.bar/US_tt06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt07.bar/US_tt07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt08.bar/US_tt08_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt09.bar/US_tt09_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt10.bar/US_tt10_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt11.bar/US_tt11_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt12.bar/US_tt12_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt13.bar/US_tt13_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Boi.dds
+- name: remastered/map/us/tt14.bar/US_tt14_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt15.bar/US_tt15_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt16.bar/US_tt16_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt17.bar/US_tt17_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt18.bar/US_tt18_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt19.bar/US_tt19_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt20.bar/US_tt20_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt21.bar/US_tt21_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt22.bar/US_tt22_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt23.bar/US_tt23_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt24.bar/US_tt24_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt25.bar/US_tt25_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt26.bar/US_tt26_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt27.bar/US_tt27_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt28.bar/US_tt28_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt29.bar/US_tt29_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt30.bar/US_tt30_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt31.bar/US_tt31_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt32.bar/US_tt32_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt33.bar/US_tt33_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt34.bar/US_tt34_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt35.bar/US_tt35_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt36.bar/US_tt36_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt37.bar/US_tt37_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt38.bar/US_tt38_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt39.bar/US_tt39_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/tt40.bar/US_tt40_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi00.bar/US_wi00_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi01.bar/US_wi01_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi02.bar/US_wi02_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi03.bar/US_wi03_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi04.bar/US_wi04_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi05.bar/US_wi05_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi06.bar/US_wi06_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
+- name: remastered/map/us/wi07.bar/US_wi07_bar0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/map/Bingus.dds
