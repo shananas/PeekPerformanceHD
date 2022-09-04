@@ -6141,3 +6141,28 @@ assets:
   method: copy
   source:
   - name: remastered/map/Bingus.dds
+- name: remastered/menu/jm_puzzle/puzzle010.bin/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/puzzles/10.dds
+- name: remastered/menu/jm_puzzle/puzzle020.bin/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/puzzles/20.dds
+- name: remastered/menu/jm_puzzle/puzzle030.bin/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/puzzles/30.dds
+- name: remastered/menu/jm_puzzle/puzzle050.bin/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/puzzles/50.dds
+- name: remastered/menu/us/ending.2ld/US_ending_2ld6.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/US_ending_2ld6.png
