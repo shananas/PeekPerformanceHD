@@ -5305,147 +5305,147 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb01.bar/US_hb01_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb02.bar/US_hb02_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb03.bar/US_hb03_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb04.bar/US_hb04_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb05.bar/US_hb05_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb06.bar/US_hb06_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb07.bar/US_hb07_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb08.bar/US_hb08_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb09.bar/US_hb09_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb10.bar/US_hb10_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb11.bar/US_hb11_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb12.bar/US_hb12_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb13.bar/US_hb13_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb14.bar/US_hb14_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb15.bar/US_hb15_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb16.bar/US_hb16_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb17.bar/US_hb17_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb18.bar/US_hb18_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb19.bar/US_hb19_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb20.bar/US_hb20_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb21.bar/US_hb21_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb22.bar/US_hb22_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb23.bar/US_hb23_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb24.bar/US_hb24_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb25.bar/US_hb25_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb26.bar/US_hb26_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb33.bar/US_hb33_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/hb38.bar/US_hb38_bar0.dds
   platform: pc
   method: copy
   source:
-  - name: remastered/map/Bingus.dds
+  - name: remastered/map/HBBingus.dds
 - name: remastered/map/us/he00.bar/US_he00_bar0.dds
   platform: pc
   method: copy
