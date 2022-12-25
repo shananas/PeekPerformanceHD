@@ -1401,6 +1401,12 @@ assets:
   method: copy
   source:
   - name: msn/EH26_MS108.bar
+- name: msn/jp/TR07_MS203.bar
+  multi:
+    - name: msn/us/TR07_MS203.bar
+  method: copy
+  source:
+  - name: msn/TR07_MS203.bar
 
 #Menus
 - name: menu/fm/ending.2ld
