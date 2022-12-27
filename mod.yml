@@ -207,6 +207,11 @@ assets:
   method: copy
   source:
   - name: remastered/itempic/Reflect.dds
+- name: remastered/itempic/item-231.imd/-0.dds #Namine
+  platform: pc
+  method: copy
+  source:
+  - name: remsatered/itempic/FeetPics.dds
 
 #Hud Stuff
 - name: remastered/obj/P_EX330.a.us/-10.dds
