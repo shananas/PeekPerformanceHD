@@ -211,7 +211,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remsatered/itempic/FeetPics.dds
+  - name: remastered/itempic/FeetPics.dds
 
 #Hud Stuff
 - name: remastered/obj/P_EX330.a.us/-10.dds
