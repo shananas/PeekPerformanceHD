@@ -212,6 +212,11 @@ assets:
   method: copy
   source:
   - name: remastered/itempic/FeetPics.dds
+- name: remastered/itempic/item-244.imd/-0.dds #Bingus(Hades Cup)
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/BingusCup.dds
 
 #Hud Stuff
 - name: remastered/obj/P_EX330.a.us/-10.dds
