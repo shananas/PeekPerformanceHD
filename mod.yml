@@ -297,8 +297,6 @@ assets:
 - name: remastered/obj/P_EX100.a.us/-8.dds
   multi:
     - name: remastered/obj/P_EX100_NM.a.us/-8.dds
-    - name: remastered/obj/P_EX110_BTLF.a.us/-0.dds
-    - name: remastered/obj/P_EX110.a.us/-0.dds
   platform: pc
   method: copy
   source:
