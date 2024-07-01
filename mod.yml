@@ -228,7 +228,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/US_BB12_GIMMICK_bar0.png
+  - name: remastered/Gibson/US_BB12_GIMMICK_bar0.png
 - name: remastered/msn/us/DC00_MS101.bar/US_DC00_MS101_bar0.png
   multi: 
     - name: remastered/msn/us/DC02_MS100.bar/US_DC02_MS100_bar0.png
@@ -236,57 +236,57 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/US_DC00_MS101_bar0.png
+  - name: remastered/Gibson/US_DC00_MS101_bar0.png
 - name: remastered/msn/us/EH15_MS104.bar/US_EH15_MS104_bar0.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_EH15_MS104_bar0.png
+  - name: remastered/Gibson/US_EH15_MS104_bar0.png
 - name: remastered/msn/us/EH22_MS111.bar/US_EH22_MS111_bar0.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_EH22_MS111_bar0.png
+  - name: remastered/Gibson/US_EH22_MS111_bar0.png
 - name: remastered/msn/us/EH26_MS108.bar/US_EH26_MS108_bar0.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_EH26_MS108_bar0.png
+  - name: remastered/Gibson/US_EH26_MS108_bar0.png
 - name: remastered/msn/us/EH26_MS108.bar/US_EH26_MS108_bar1.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_EH26_MS108_bar1.png
+  - name: remastered/Gibson/US_EH26_MS108_bar1.png
 - name: remastered/msn/us/EH26_MS108.bar/US_EH26_MS108_bar2.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_EH26_MS108_bar2.png
+  - name: remastered/Gibson/US_EH26_MS108_bar2.png
 - name: remastered/msn/us/HB08_MS102.bar/US_HB08_MS102_bar0.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_HB08_MS102_bar0.png
+  - name: remastered/Gibson/US_HB08_MS102_bar0.png
 - name: remastered/msn/us/HB32_FM_VEX.bar/US_HB32_FM_VEX_bar0.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_HB32_FM_VEX_bar0.png
+  - name: remastered/Gibson/US_HB32_FM_VEX_bar0.png
 - name: remastered/msn/us/HB33_FM_VEX.bar/US_HB33_FM_VEX_bar0.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_HB33_FM_VEX_bar0.png
+  - name: remastered/Gibson/US_HB33_FM_VEX_bar0.png
 - name: remastered/msn/us/HE08_MS106.bar/US_HE08_MS106_bar0.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_HE08_MS106_bar0.png
+  - name: remastered/Gibson/US_HE08_MS106_bar0.png
 - name: remastered/msn/us/LK02_MS102.bar/US_LK02_MS102_bar0.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_LK02_MS102_bar0.png
+  - name: remastered/Gibson/US_LK02_MS102_bar0.png
 - name: remastered/msn/us/MU01_MS102.bar/US_MU01_MS102_bar0.png
   multi:
     - name: remastered/msn/us/MU01_MS103C.bar/US_MU01_MS103C_bar1.png
@@ -296,26 +296,26 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/US_MU01_MS102_bar0.png
+  - name: remastered/Gibson/US_MU01_MS102_bar0.png
 - name: remastered/msn/us/MU09_MS108.bar/US_MU09_MS108_bar0.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_MU09_MS108_bar0.png
+  - name: remastered/Gibson/US_MU09_MS108_bar0.png
 - name: remastered/msn/us/PO01_MS501.bar/US_PO01_MS501_bar4.png
   multi:
     - name: remastered/msn/us/PO01_MS501_FREE.bar/US_PO01_MS501_FREE_bar4.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_PO01_MS501_bar4.png
+  - name: remastered/Gibson/US_PO01_MS501_bar4.png
 - name: remastered/msn/us/PO09_MS401.bar/US_PO09_MS401_bar4.png
   multi:
     - name: remastered/msn/us/PO09_MS401_FREE.bar/US_PO09_MS401_FREE_bar3.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_PO09_MS401_bar4.png
+  - name: remastered/Gibson/US_PO09_MS401_bar4.png
 - name: remastered/msn/us/TR01_MS101.bar/US_TR01_MS101_bar2.png
   multi:
     - name: remastered/msn/us/TR03_MS103.bar/US_TR03_MS103_bar0.png
@@ -323,12 +323,12 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/US_TR01_MS101_bar2.png
+  - name: remastered/Gibson/US_TR01_MS101_bar2.png
 - name: remastered/msn/us/TR07_MS203.bar/US_TR07_MS203_bar0.png
   platform: pc
   method: copy
   source:
-  - name: remastered/US_TR07_MS203_bar0.png
+  - name: remastered/Gibson/US_TR07_MS203_bar0.png
 - name: remastered/msn/us/WI04_MS102C.bar/US_WI04_MS102C_bar0.png
   multi:
     - name: remastered/msn/us/WI05_MS102D.bar/US_WI05_MS102D_bar0.png
@@ -337,7 +337,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/US_WI04_MS102C_bar0.png
+  - name: remastered/Gibson/US_WI04_MS102C_bar0.png
 
 #Hud Stuff
 - name: remastered/obj/P_EX330.a.us/-10.dds
