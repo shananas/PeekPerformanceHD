@@ -263,15 +263,12 @@ assets:
   source:
   - name: remastered/Gibson/US_HB08_MS102_bar0.png
 - name: remastered/msn/us/HB32_FM_VEX.bar/US_HB32_FM_VEX_bar0.png
+  multi:
+  - name: remastered/msn/us/HB33_FM_VEX.bar/US_HB33_FM_VEX_bar0.png
   platform: pc
   method: copy
   source:
   - name: remastered/Gibson/US_HB32_FM_VEX_bar0.png
-- name: remastered/msn/us/HB33_FM_VEX.bar/US_HB33_FM_VEX_bar0.png
-  platform: pc
-  method: copy
-  source:
-  - name: remastered/Gibson/US_HB33_FM_VEX_bar0.png
 - name: remastered/msn/us/HE08_MS106.bar/US_HE08_MS106_bar0.png
   platform: pc
   method: copy
